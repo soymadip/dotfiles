@@ -27,6 +27,22 @@ function confirm_start_script {
 }
 
 
+install_pkgs() {
+    pormpt "Do you want to install apps?" confirm_pkgs
+    if [ "$confirm_pkgs" == "y" ] || [ "$confirm_pkgs" == "Y" ] || [ -z "$confirm_pkgs" ]; then
+        # Repo:
+        log.warn "Installing Repo packages"
+        sudo pacman -S --noconfirm "${pacman_packages[@]}"
+        log.success "Repo packages installed."
+        # AURs:
+        log.warn "Installing AUR packages,"
+        log.warn "Please carefully select options when asked:"
+        yay -S "${aur_packages[@]}"
+        footer "AUR packages installed."
+    else
+        echo -e "${RED}Packages' Installation skipped.${NC}"
+    fi
+}
 
 
 
