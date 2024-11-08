@@ -27,6 +27,28 @@
 *LOG
 Trash
 KireiSakura-Kit
+.local/state
+nohup.*
+
+
+
+#_________ 64Gram__________
+!/.local/share/64Gram
+/.local/share/64Gram/logs*
+/.local/share/64Gram/tdata/*
+!/.local/share/64Gram/tdata/enhanced-settings-custom.json
+!/.local/share/64Gram/tdata/shortcuts-custom.json
+
+
+
+#__________cache folder__________
+!/.cache
+/.cache/*
+!/.cache/ags
+!/.cache/.placeholder
+/.cache/ags/*
+!/.cache/ags/hyprpanel
+
 
 
 #____________ brave ______________
@@ -35,23 +57,100 @@ KireiSakura-Kit
 !/.config/BraveSoftware/Brave-Browser/NativeMessagingHosts
 
 
+
+#________CopyQ______________
+/.config/copyq/.copyq_s
+/.config/copyq/copyq_geometry.ini
+/.config/copyq/*.dat
+
+
+
+#____________Dolphin______________
+/.local/share/dolphin/kuserfeedback
+/.local/share/dolphin/bookmarks.xml
+
+
+
+#________ HyprPanel _________
+/.config/HyprPanel
+
+
+
+#________KireiSakura-Kit_________
+/Install/KireiSakura-Kit
+/Install/test.sh
+
+
+
+#____________Kate_______________
+/.config/kate/externaltools
+
+
+
+#____________Konsole______________
+/.local/share/konsole/bookmarks.xml
+
+
+
 #_______LazyGit___________
 /.config/lazygit/state.yml
 
 
 
-#____FireFox(& derivatives)_______
-/.mozilla/*/*
+#_________.local__________
+/.local/share/*
+/.local/share/onboard/models
+!/.local/share/applications
+!/.local/share/dolphin
+!/.local/share/firefoxpwa
+!/.local/share/konsole
+!/.local/share/kxmlgui5
+!/.local/share/media-downloader
+!/.local/share/nwg-look
+!/.local/share/onboard
+!/.local/share/ss
+!/.local/share/templates
+
+
+
+#____FireFox (librewolf, Zen, Firefox PWA)_______
+
+# For greater control over the profile, specifing each forks 
+/.mozilla/firefox/*
+
 /.librewolf/*/*
-/.zen/*/*
-!/.*/*/chrome
-!/.*/*/addons.json
-!/.*/*/cotainers.json
-!/.*/*/extension*.json
-!/.*/*/handlesr.json
-!/.*/*/prefs.js
-!/.*/*/xulstore.json
-!/.*/*/zen-themes.json
+!/.librewolf/*/chrome
+!/.librewolf/*/addons.json
+!/.librewolf/*/containers.json
+!/.librewolf/*/extension*.json
+!/.librewolf/*/handlesr.json
+!/.librewolf/*/prefs.js
+!/.librewolf/*/shield-preference-experiments.json
+!/.librewolf/*/xulstore.json
+!/.librewolf/*/handlers.json
+
+/.local/share/firefoxpwa/profiles/*
+!/.local/share/firefoxpwa/profiles/*/chrome/*
+!/.local/share/firefoxpwa/profiles/*/addons.json
+!/.local/share/firefoxpwa/profiles/*/containers.json
+!/.local/share/firefoxpwa/profiles/*/extension*.json
+!/.local/share/firefoxpwa/profiles/*/prefs.js
+!/.local/share/firefoxpwa/profiles/*/shield-preference-experiments.json
+!/.local/share/firefoxpwa/profiles/*/xulstore.json
+!/.local/share/firefoxpwa/profiles/*/handlers.json
+
+/.zen/Profiles/*/*
+/.zen/Profiles/*/chrome
+!/.zen/Profiles/*/addons.json
+!/.zen/Profiles/*/containers.json
+!/.zen/Profiles/*/extension*.json
+!/.zen/Profiles/*/handlers.json
+!/.zen/Profiles/*/prefs.js
+!/.zen/Profiles/*/shield-preference-experiments.json
+!/.zen/Profiles/*/xulstore.json
+!/.zen/Profiles/*/zen-themes.json
+!/.zen/Profiles/*/zen-keyboard-shortcuts.json
+!/.zen/Profiles/*/zen-workspaces
 
 
 
@@ -60,9 +159,45 @@ KireiSakura-Kit
 
 
 
+#________ KDE _______________
+/.config/KDE/UserFeedback*
+/.config/kde*/UserFeedback*
+/.config/baloofileinformationrc
+/.config/filetypesrc
+/.config/knfsshare
+/.config/ktorrent_infowidgetrc
+
+
+
+#________Libreoffice________________
+/.config/libreoffice/4/*
+!/.config/libreoffice/4/user
+/.config/libreoffice/4/user/*
+!/.config/libreoffice/4/user/pack
+!/.config/libreoffice/4/user/registrymodifications.xcu
+
+
+
+#_______Mozilla__________
+/.mozilla/firefox
+
+
+
 #________MPV____________
 /.config/mpv/playlists
 /.config/mpv/watch_later
+
+
+
+#____________________Mkv Tool__________
+/.config/bunkus.org/mkvtoolnix-gui/jobQueue
+
+
+
+#______________media-downloader________
+/.local/share/media-downloader/bin
+/.local/share/media-downloader/data
+/.local/share/media-downloader/engines.v1
 
 
 
@@ -92,9 +227,34 @@ KireiSakura-Kit
 
 
 
+#_______Okular___________
+/.config/okularpartrc
+/.config/okular-generator-popplerrc
+/.config/QtProject.conf
+
+
+
+#_____________Plasma___________________
+/.local/share/plasma/containmentpreviews
+/.local/share/plasma/plasmoids
+/.local/share/plasma/desktoptheme/Colloid-dark-nord
+/.local/share/plasma/desktoptheme/N-Plasma-Theme
+/.local/share/plasma/desktoptheme/Nordic-round
+/.local/share/plasma/desktoptheme/Nordic-Solid
+/.local/share/plasma/desktoptheme/Wings-Dark-Plasma
+/.local/share/plasma/look-and-feel
+/.local/share/konsole/konsolestaterc
+
+
+
 #________Spicetify__________
 /.config/spicetify/CustomApps
 /.config/spicetify/Extracted
+
+
+
+#______theme folder_________
+# /.themes
 
 
 
@@ -117,5 +277,42 @@ KireiSakura-Kit
 
 
 
+#________WebCord_______
+/.config/WebCord/TransportSecurity
+/.config/WebCord/Crashpad
+/.config/WebCord/Dictionaries
+/.config/WebCord/Shared Dictionary
+/.config/WebCord/Network Persistent State
+/.config/WebCord/windowState
+/.config/VSCodium/VideoDecodeStats
+
+
+
+#_______Youtube-music______
+/.config/YouTube Music/*
+!/.config/YouTube Music/config.json
+!/.config/YouTube Music/Preferences
+
+
+
+#________ user dirs __________
+
+/.config/user-dirs.*
+
+
+
 #________ Vlc __________
 /.config/vlc/vlc-qt-interface.conf
+
+
+
+#________ZSH__________
+/.config/zsh/------OLD------
+/.config/zsh/zinit
+/.config/zsh/*history*
+
+
+
+#______ZED_______
+#/.config/zed/
+/AppData/Roaming/mpv/playlists
