@@ -20,20 +20,20 @@
 	// Settings Sync
 	"settingsSync.keybindingsPerPlatform": false,
 
-
 	// Workbench settings
-	"workbench.iconTheme": "catppuccin-perfect-latte",
-	"workbench.colorTheme": "Catppuccin Macchiato",
-	"workbench.productIconTheme": "fluent-icons",
+	"window.autoDetectColorScheme": true,
 	"workbench.preferredDarkColorTheme": "Catppuccin Macchiato",
 	"workbench.preferredLightColorTheme": "Catppuccin Frappé",
 	"workbench.editor.enablePreview": false,
 	"search.defaultViewMode": "tree",
+	"editor.semanticHighlighting.enabled": true,
 
-
-	"catppuccin.accentColor": "lavender",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.iconTheme": "catppuccin-perfect-latte",
+	"workbench.colorTheme": "Catppuccin Macchiato",
+	"catppuccin.accentColor": "maroon",
+	"catppuccin.workbenchMode": "flat",
 	"catppuccin.bracketMode": "dimmed",
-	"catppuccin.workbenchMode": "default",
 	"alt-catppuccin.syntaxMode": "default",
 	"catppuccin-noctis-icons.hidesExplorerArrows": false,
 
@@ -51,11 +51,10 @@
 	"workbench.editor.highlightModifiedTabs": true,
 	"workbench.layoutControl.enabled": false,
 
-	"window.commandCenter": false,
+	"window.commandCenter": true,
 	"workbench.sideBar.location": "right",
 	"window.density.editorTabHeight": "compact",
 	"window.restoreWindows": "folders",
-	"window.autoDetectColorScheme": true,
 
 	"explorer.fileNesting.enabled": true,
 	"explorer.incrementalNaming": "smart",
@@ -64,12 +63,10 @@
 		"asvetliakov.vscode-neovim": 1
 	},
 
-
 	// Zen Mode
 	"zenMode.centerLayout": false,
 	"zenMode.hideLineNumbers": false,
 	"zenMode.hideStatusBar": false,
-
 
 	// Editor
 	"editor.fontSize": 14.1,
@@ -107,11 +104,9 @@
 	"editor.smoothScrolling": true,
 	"editor.minimap.autohide": true,
 
-
 	// SCM
 	"scm.alwaysShowActions": true,
 	"scm.defaultViewMode": "tree",
-
 
 	// Code Runner
 	"code-runner.saveFileBeforeRun": true,
@@ -136,28 +131,25 @@
 	},
 	"code-runner.enableAppInsights": false,
 
-
 	// Terminal
-	"terminal.integrated.confirmOnExit": "hasChildProcesses",
-	"terminal.integrated.cursorStyle": "line",
+	"terminal.external.linuxExec": "kitty",
 	"terminal.integrated.defaultProfile.linux": "zsh",
-	"terminal.integrated.defaultLocation": "view",
-	"terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.defaultProfile.windows": "git-bash",
+	"terminal.integrated.defaultLocation": "view",
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.enableImages": true,
 	"terminal.integrated.focusAfterRun": "accessible-buffer",
 	"terminal.integrated.smoothScrolling": true,
-	"terminal.integrated.accessibleViewFocusOnCommandExecution": true,
-
+	"terminal.integrated.confirmOnExit": "hasChildProcesses",
+	"terminal.integrated.minimumContrastRatio": 1,
 
 	// Auto Close Tag
 	"auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
 	"auto-close-tag.SublimeText3Mode": true,
 
-
 	// C/C++
 	"C_Cpp.autocompleteAddParentheses": true,
-
 
 	// GitHub Copilot
 	"github.copilot.chat.scopeSelection": true,
@@ -165,10 +157,9 @@
 	"github.copilot.enable": {
 		"*": true,
 		"plaintext": false,
-		"markdown": false,
+		"markdown": true,
 		"scminput": false
 	},
-
 
 	// CSS
 	"css.lint.boxModel": "warning",
@@ -196,18 +187,14 @@
 	"diffEditor.codeLens": true,
 	"merge-conflict.autoNavigateNextConflict.enabled": true,
 
-
-	// Import Cost 
+	// Import Cost
 	"importCost.fontStyle": "oblique",
 
-
-	// JSON 
+	// JSON
 	"json.format.keepLines": true,
 
-
-	// Media Preview 
+	// Media Preview
 	"mediaPreview.video.loop": true,
-
 
 	// Python
 	"python.analysis.autoFormatStrings": true,
@@ -216,10 +203,9 @@
 	"python.analysis.completeFunctionParens": true,
 	"python.analysis.diagnosticMode": "workspace",
 
-
 	// Individual formatters
 	"[jsonc]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[snippets]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
@@ -228,12 +214,10 @@
 		"editor.defaultFormatter": "ms-vscode.cpptools"
 	},
 
-
 	// Prettier settings
 	"prettier.useTabs": true,
 
-
-	// YAML 
+	// YAML
 	"yaml.schemas": {
 		"https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
 	},
@@ -246,12 +230,9 @@
 		"tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
 	],
 
-
-
 	// evenBetterToml
 	"evenBetterToml.formatter.trailingNewline": true,
 	"evenBetterToml.schema.links": true,
-
 
 	// Neovim settings
 	"vscode-neovim.ctrlKeysForNormalMode": [
@@ -284,6 +265,28 @@
 		"backspace",
 		"delete"
 	],
-	"vscode-neovim.neovimWidth": 350,
+	"vscode-neovim.neovimWidth": 450,
 	"vscode-neovim.statusLineSeparator": " | ",
+	"[toml]": {
+		"editor.defaultFormatter": "tamasfe.even-better-toml"
+	},
+	"[lua]": {
+		"editor.defaultFormatter": "sumneko.lua"
+	},
+	"git.enableSmartCommit": true,
+	"explorer.confirmPasteNative": false,
+	"explorer.fileNesting.patterns": {
+		"*.ts": "${capture}.js",
+		"*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+		"*.jsx": "${capture}.js",
+		"*.tsx": "${capture}.ts",
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+		"*.sqlite": "${capture}.${extname}-*",
+		"*.db": "${capture}.${extname}-*",
+		"*.sqlite3": "${capture}.${extname}-*",
+		"*.db3": "${capture}.${extname}-*",
+		"*.sdb": "${capture}.${extname}-*",
+		"*.s3db": "${capture}.${extname}-*"
+	}
 }

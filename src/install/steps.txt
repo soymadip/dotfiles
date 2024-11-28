@@ -16,3 +16,6 @@ change wallpaper
 
 change icons
 
+set flatpak overrides:
+sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override --filesystem=xdg-config/gtk-4.0
+

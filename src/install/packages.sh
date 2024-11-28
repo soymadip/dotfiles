@@ -10,26 +10,42 @@ rice_pckgs=(
     "papirus-folders-catppuccin-git"
     "catppuccin-cursors-frappe"
     "archlinux-tweak-tool-git"
+    "colloid-catppuccin-gtk-theme-git"
+    "catppuccin-gtk-theme-macchiato"
 
     "fastfetch"
     "nwg-look"
-    "qt5ctl"
-    "qt6ctl"
+    "qt5ct"
+    "qt6ct"
     "kvantum"
     "kvantum-qt5"
     "plymouth-theme-catppuccin-mocha-git"
 )
 
+nvidia_pckgs=(
+    "nvidia-dkms"
+    "nvidia-utils"
+    "libva-nvidia-dirver"
+    "nvidia-settings"
+)
+
+
+sys_pckgs=(
+
+)
 
 core_pckgs=(
 
+    "pacman-contrib"
     "paru"
+
     "zsh"
+    "wl-clipboard"
+
+    "handlr-regex"
     "intel-ucode"
     "libva-intel-driver"
     "vulkan-intel"
-    # "libva-mesa-driver"
-    "neovim"
     "wget"
     "upower"
     "fwupd"
@@ -78,28 +94,34 @@ core_pckgs=(
 cli_pckgs=(
 
     "kitty"
+
     "neovim"
-    "lsd"
+    "luarocks"
+
+    #"lsd"
+    "eza"
+
     "bottom"
+    "fzf"
+    "ffmpegthumbnailer"
+
+    "bat"
+    "bat-extras"
+
+    "yazi"
     "jq"
     "fd"
     "ripgrep"
     "chafa"
-    "fzf"
-    "ffmpegthumbnailer"
     "zoxide"
-    "bat"
-    "bat-extras"
-    "yazi"
+
     "zathura"
     "zathura-pdf-poppler"
     "zathura-cb"
+
     "syncthing"
-    "gum"
     "figlet"
     "rclone"
-    "v4l2loopback-dkms"
-    "wl-clipboard"
     "dust"
     "yt-dlp"
     "lazygit"
@@ -136,9 +158,11 @@ hypr_core_pckgs=(
     "hyprlock"
     "hypridle"
     "hyprpicker"
+    "hyprsunset"
     "grimblast"
     "copyq"
     "rofi-wayland"
+    "network-manager-applet"
 )
 
 
@@ -146,30 +170,38 @@ user_pckgs=(
 
     "vorta"
     "vorta-root"
-    "dolphin"
-    "dolphin-plugins"
-    "kio-admin"
+
+    "thunar"
+    "thunar-archive-plugin"
+    "thunar-volman"
+    "gvfs-mtp"
+    "tumbler"
+
     "okular"
+
     "code"
     "code-marketplace"
     "code-features"
+
     "github-desktop"
     "mpv"
     "vlc"
     "obsidian"
-    "librewolf"
-    "librewolf-firefox-shim"
     "firefox-pwa"
     "brave-bin"
-    "webcord"
+    #"webcord"
     "64gram-desktop"
     "keepassxc"
-    "kate"
-    "ark"
+    #"kwrite"
+
+    #"ark"
+    "xarchiver"
+
     "kasts"
     "ktorrent"
-    "gwenview"
-    
+
+    #"gwenview"
+    "nomacs"
 
     "gnome-disk-utility"
     "rclone-browser"
@@ -178,9 +210,7 @@ user_pckgs=(
     "libreoffice-fresh"
     "appimagelauncher"
     "obs-studio"
-    "v4l2loopback-dkms"
     "ventoy-bin"
-    "luarocks"
 )
 
 

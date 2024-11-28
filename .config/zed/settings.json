@@ -1,15 +1,15 @@
 {
   "assistant": {
     "default_model": {
-      "provider": "openai",
-      "model": "gpt-4o"
+      "provider": "copilot_chat",
+      "model": "o1-preview"
     },
     "version": "2",
     "dock": "bottom"
   },
   "telemetry": {
     "diagnostics": true,
-    "metrics": true
+    "metrics": false
   },
   "theme": "Catppuccin Macchiato",
   "vim_mode": true,
@@ -18,7 +18,7 @@
   "auto_update": true,
   "ui_font_size": 15,
   "buffer_font_size": 14.5,
-  "ui_font_family": "Hack Nerd Font",
+  "ui_font_family": "JetBrainsMono Nerd Font",
   "indent_guides": {
     "enabled": true,
     "line_width": 1,
@@ -46,7 +46,7 @@
     "JSON": ["cfg"]
   },
   "inlay_hints": {
-    "enabled": false,
+    "enabled": true,
     "show_type_hints": true,
     "show_parameter_hints": true,
     "show_other_hints": true,

@@ -40,7 +40,6 @@ nohup.*
 !/.local/share/64Gram/tdata/shortcuts-custom.json
 
 
-
 #__________cache folder__________
 !/.cache
 /.cache/*
@@ -59,9 +58,14 @@ nohup.*
 
 
 #________CopyQ______________
-/.config/copyq/.copyq_s
-/.config/copyq/copyq_geometry.ini
-/.config/copyq/*.dat
+/.config/copyq/*
+!/.config/copyq/copyq.conf
+!/.config/copyq/copyq*.ini
+
+
+
+#________Chromium__________
+/.config/chromium/
 
 
 
@@ -69,6 +73,26 @@ nohup.*
 /.local/share/dolphin/kuserfeedback
 /.local/share/dolphin/bookmarks.xml
 
+
+
+#____________dconf______________
+/.config/dconf
+
+
+
+#_________Github Desktop__________
+/.config/GitHub Desktop/*
+!/.config/GitHub Desktop/.title-bar-config
+
+
+
+#_________Github Copilot__________
+/.config/github-copilot
+
+
+
+#_________Gnome Boxes__________
+/.config/gnome-boxes
 
 
 #________ HyprPanel _________
@@ -84,6 +108,11 @@ nohup.*
 
 #____________Kate_______________
 /.config/kate/externaltools
+
+
+
+#____________Kate_______________
+/.config/kdeconnect
 
 
 
@@ -104,12 +133,31 @@ nohup.*
 !/.local/share/dolphin
 !/.local/share/firefoxpwa
 !/.local/share/konsole
-!/.local/share/kxmlgui5
 !/.local/share/media-downloader
 !/.local/share/nwg-look
 !/.local/share/onboard
 !/.local/share/ss
 !/.local/share/templates
+!/.local/share/color-schemes
+
+/.local/bin/*
+!/.local/bin/kireisakura
+
+
+
+#____Libaccounts glib______
+.config/libaccounts-glib
+
+
+
+#____Libvert______
+/.config/libvirt
+
+
+#____________flatpak__________
+!/.local/share/flatpak
+/.local/share/flatpak/*
+!/.local/share/flatpak/overrides
 
 
 
@@ -139,23 +187,35 @@ nohup.*
 !/.local/share/firefoxpwa/profiles/*/xulstore.json
 !/.local/share/firefoxpwa/profiles/*/handlers.json
 
-/.zen/Profiles/*/*
-/.zen/Profiles/*/chrome
-!/.zen/Profiles/*/addons.json
-!/.zen/Profiles/*/containers.json
-!/.zen/Profiles/*/extension*.json
-!/.zen/Profiles/*/handlers.json
-!/.zen/Profiles/*/prefs.js
-!/.zen/Profiles/*/shield-preference-experiments.json
-!/.zen/Profiles/*/xulstore.json
-!/.zen/Profiles/*/zen-themes.json
-!/.zen/Profiles/*/zen-keyboard-shortcuts.json
-!/.zen/Profiles/*/zen-workspaces
+/.zen/*/*
+!/.zen/*/chrome
+!/.zen/*/chrome/zen-themes.css
+!/.zen/*/addons.json
+!/.zen/*/containers.json
+!/.zen/*/extension*.json
+!/.zen/*/handlers.json
+!/.zen/*/prefs.js
+!/.zen/*/shield-preference-experiments.json
+!/.zen/*/xulstore.json
+!/.zen/*/zen-themes.json
+!/.zen/*/zen-keyboard-shortcuts.json
+!/.zen/*/zen-workspaces
 
 
 
 #________ Go _______________
 /.config/go
+
+
+
+#________ Geany _______________
+
+/.config/geany/
+
+
+
+#________ Geany _______________
+/.icons/default
 
 
 
@@ -166,7 +226,7 @@ nohup.*
 /.config/filetypesrc
 /.config/knfsshare
 /.config/ktorrent_infowidgetrc
-
+/.config/kactivitymanagerdrc
 
 
 #________Libreoffice________________
@@ -231,6 +291,12 @@ nohup.*
 /.config/okularpartrc
 /.config/okular-generator-popplerrc
 /.config/QtProject.conf
+
+
+
+#_____________Pictures___________________
+/Pictures/*
+!/Pictures/Wallpaper
 
 
 
@@ -304,6 +370,11 @@ nohup.*
 #________ Vlc __________
 /.config/vlc/vlc-qt-interface.conf
 
+
+
+#________ Vlc __________
+/.config/VirtualBox/*
+!/.config/VirtualBox/VirtualBox.xml
 
 
 #________ZSH__________

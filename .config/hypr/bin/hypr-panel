@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+deps=(
+
+    "ags"
+    "hyprpicker"
+
+)
+
+
+for dep in "${deps[@]}"; do
+    if ! command -v "$dep" &>/dev/null; then
+        echo "$dep not found"
+        #hypr-notify -c "HyprPanel" "$dep not found"
+    fi
+done
+
+
+agsv1 $@ &

@@ -1,6 +1,6 @@
 /**
  *
- * Catppuccin-Lavender
+ * Catppuccin-macchiato-maroon
  * 
  **/
 
@@ -8,8 +8,8 @@
     background:     #1E1D2FFF;
     background-alt: #282839FF;
     foreground:     #D9E0EEFF;
-    selected:       #b7bdf8FF;
-    selected-alt:   #8CAAEEFF;
+    selected:       #EE99A0FF;
+    selected-alt:   #ed8796FF;
     active:         #ABE9B3FF;
     urgent:         #F28FADFF;
 }

@@ -1,5 +1,5 @@
 [%General]
-author=elkrien based on Arc Dark style
+author=soymadip
 comment=Catppuccin-Macchiato-Lavender
 spread_menuitems=true
 left_tabs=true
@@ -58,7 +58,7 @@ submenu_delay=250
 tree_branch_line=true
 progressbar_thickness=8
 click_behavior=0
-contrast=5.00
+contrast=2.00
 dialog_button_layout=0
 drag_from_buttons=false
 hide_combo_checkboxes=false

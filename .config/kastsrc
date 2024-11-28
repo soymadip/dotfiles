@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=KvAdaptaDark
+ColorScheme=Catppuccin Macchiato Maroon
 alwaysShowFeedTitles=true
 showPodcastTitle=true
 showTrayIcon=true
@@ -9,7 +9,8 @@ trayIconType=Light
 autoFeedUpdateInterval=12
 doFullUpdate=false
 markAsPlayedBeforeEnd=60
-markUnreadOnNewFeed=All
+markUnreadOnNewFeed=Custom
+markUnreadOnNewFeedCustomAmount=6
 prioritizeStreaming=true
 refreshOnStartup=true
 
@@ -20,4 +21,4 @@ allowMeteredImageDownloads=true
 allowMeteredStreaming=true
 
 [UiSettings]
-ColorScheme=KvAdaptaDark
+ColorScheme=Catppuccin Macchiato Maroon

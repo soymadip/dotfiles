@@ -10,6 +10,8 @@
 
 fastfetch -c ~/.config/fastfetch/small.jsonc
 
+#eval "$(starship init zsh)"
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
@@ -32,10 +34,11 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # Source prompt
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
-# eval "$(starship init zsh)"
+
 
 # Source core file
 source $ZDOTDIR/modules/init.zsh
+
 
 #----------------------------------------- PLUGINS & USER CONFIGS ---------------------------------
 
@@ -59,10 +62,9 @@ export GRIMBLAST_EDITOR=gwenview
 export FZF_DEFAULT_COMMAND='fd --hidden --no-ignore --exclude .git'
 
 export AUTO_NOTIFY_EXPIRE_TIME=5000
-export AUTO_NOTIFY_IGNORE=("docker" "top" "htop" "btm" "nvim" "vim" "nano" "man" "less" "more" "tig" "watch" "git commit" "ssh" "lazygit" "cat" "bat" "batman")
+export AUTO_NOTIFY_IGNORE=("docker" "top" "htop" "btm" "nvim" "vim" "nano" "man" "less" "more" "tig" "watch" "git commit" "ssh" "lazygit" "cat" "bat" "batman" "lf" "yazi")
 
 
-fpath+=("$HOME/.local/lib/KireiSakura-Kit/completions")
 
 #_______________________Shell Integrations_____________________________
 
@@ -70,6 +72,8 @@ import-mod --all
 
 eval_fzf
 # eval "$(atuin init zsh)"
+
+bat cache --build &>/dev/null
 
 
 #_____________________________Plugins____________________________________
