@@ -1,7 +1,6 @@
 main.advanced_view false
 main.audio_codec opus
-main.audio_input Default output
-main.audio_type_view audio_devices
+main.audio_input device:Default output
 main.av1_amd_bug_warning_shown false
 main.change_video_resolution false
 main.codec h264_software

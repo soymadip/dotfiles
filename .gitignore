@@ -1,3 +1,10 @@
+        _ _   _
+   __ _(_) |_(_) __ _ _ __   ___  _ __ ___
+  / _` | | __| |/ _` | '_ \ / _ \| '__/ _ \
+ | (_| | | |_| | (_| | | | | (_) | | |  __/
+(_)__, |_|\__|_|\__, |_| |_|\___/|_|  \___|
+  |___/         |___/
+
 # As we need to filter out any sensitive/unnecessary information 
 # form posting in our dotfiles repo.
 
@@ -92,11 +99,11 @@ nohup.*
 
 
 # Standalone files
+/.config/*partrc
 /.config/baloofileinformationrc
 /.config/kactivitymanagerdrc
 /.config/knfsshare
 /.config/ktorrent_infowidgetrc
-/.config/*partrc
 /.config/QtProject.conf
 /.config/user-dirs.locale
 
@@ -121,8 +128,22 @@ nohup.*
 /.config/dconf
 
 
+# Discord canary
+/.config/discordcanary
+
+
 # Geany
 /.config/geany/
+
+
+# ghb
+/.config/ghb
+
+
+# gimp
+/.config/GIMP/2.10/*
+!/.config/GIMP/**/themes
+!/.config/GIMP/**/*rc
 
 
 # Github Copilot
@@ -240,7 +261,6 @@ nohup.*
 /.local/share/*
 
 !/.local/share/applications
-!/.local/share/dolphin
 !/.local/share/firefoxpwa
 !/.local/share/konsole
 !/.local/share/media-downloader
@@ -249,6 +269,11 @@ nohup.*
 !/.local/share/ss
 !/.local/share/templates
 !/.local/share/color-schemes
+
+
+# Qalculate
+!/.local/share/qalculate
+.config/qalculate/*.history
 
 
 # 64Gram

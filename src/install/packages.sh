@@ -192,7 +192,9 @@ user_pckgs=(
     #"webcord"
     "64gram-desktop"
     "keepassxc"
+
     #"kwrite"
+    "pluma"
 
     #"ark"
     "xarchiver"
@@ -211,8 +213,13 @@ user_pckgs=(
     "appimagelauncher"
     "obs-studio"
     "ventoy-bin"
+    "qalculate-gtk"
 )
 
+opt_pckgs=(
+    junction # application chooser
+    flatseal # flatpak permission manager
+)
 
 vscode_extensions=(
 

@@ -278,16 +278,18 @@ I try to stick to some basic rules for my binds:-
 
 <h2 align="center">-----: 🙏 Thanks to :-----</h2>
 
-- Jas-SinghFSU for making [Hyprpanel][hprpnll]
-- Aylur for making [ags][agsl]
-- adil090x for [rofi themes][rfil]
-- soymadip for [KireiSakura-Kit][kskt] :)
+- Jas-SinghFSU for making [Hyprpanel][hprpnll].
+- Aylur for making [ags][agsl].
+- adil090x for [rofi themes][rfil].
+- [Keyitdev][kdv] for sddm theme.
+- soymadip for [KireiSakura-Kit][kskt]. :)
 
 </br></br>
 
 <!-- ___________________LINKS___________________ -->
 
 [kskt]: https://github.com/soymadip/KireiSakura-Kit
+[kdv]:  https://github.com/Keyitdev
 [hprpnll]: https://github.com/Jas-SinghFSU/HyprPanel
 [agsl]: https://github.com/Aylur/ags
 [rfil]: https://github.com/adi1090x/rofi

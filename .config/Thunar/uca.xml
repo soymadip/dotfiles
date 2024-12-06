@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
-	<icon>utilities-terminal</icon>
-	<name>Open Terminal Here</name>
+	<icon>kitty</icon>
+	<name>Open Kitty Here</name>
 	<submenu></submenu>
 	<unique-id>1731708888341503-1</unique-id>
 	<command>/usr/bin/kitty %f</command>
-	<description>Example for a custom action</description>
+	<description>Open terminal in this directory</description>
 	<range></range>
 	<patterns>*</patterns>
 	<startup-notify/>
@@ -23,5 +23,28 @@
 	<patterns>*</patterns>
 	<directories/>
 	<text-files/>
+</action>
+<action>
+	<icon>shellnoob</icon>
+	<name>Open as Root</name>
+	<submenu></submenu>
+	<unique-id>1733384015427888-1</unique-id>
+	<command>thunar admin:///%f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>link</icon>
+	<name>soft-link</name>
+	<submenu>Create symlink</submenu>
+	<unique-id>1733384670386667-2</unique-id>
+	<command>ln -Ts &quot;%f&quot; &quot;%f_symlink&quot;</command>
+	<description>create soft</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
 </action>
 </actions>

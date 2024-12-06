@@ -1,8 +1,11 @@
 {
+  "project_panel": {
+    "dock": "right"
+  },
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
-      "model": "o1-preview"
+      "model": "claude-3-5-sonnet"
     },
     "version": "2",
     "dock": "bottom"

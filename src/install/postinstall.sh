@@ -12,6 +12,8 @@
 
 
 
+# Too old (NOT UP TO DATE WITH LATEST KIREISAKURA-KIT RELEASE)
+
 install_pkgs() {
     pormpt "Do you want to install apps?" confirm_pkgs
     if [ "$confirm_pkgs" == "y" ] || [ "$confirm_pkgs" == "Y" ] || [ -z "$confirm_pkgs" ]; then
@@ -33,8 +35,8 @@ install_pkgs() {
 
 # \\\\\\\\\\\\\\\\\\ Triggering Functions ///////////////////////
 
-LOG_FILE="init.log"
-CACHE_DIR="$HOME/.cache/setup"
+export LOG_FILE="init.log"
+export CACHE_DIR="$HOME/.cache/setup"
 
 
 eval "$(kireisakura --init )"

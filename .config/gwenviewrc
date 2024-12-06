@@ -1,0 +1,16 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/MF/Study/CSO/8086 questions.jpg
+Name1[$e]=8086 questions.jpg
+
+[SideBar]
+InformationSplitterSizes=232,235
+IsVisible ViewMode=true
+SideBarSplitterSizes=205,442

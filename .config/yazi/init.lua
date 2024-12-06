@@ -137,10 +137,10 @@ require("yatline"):setup({
 				{ type = "line", custom = false, name = "tabs", params = { "right" } },
 				-- { type = "string", custom = false, name = "date", params = { "%A, %d %B %Y" } },
 			},
-			section_b = {
+			section_c = {
 				-- { type = "string", custom = false, name = "date", params = { "%X" } },
 			},
-			section_c = {},
+			section_b = {},
 		},
 	},
 
@@ -149,12 +149,10 @@ require("yatline"):setup({
 			section_a = {
 				{ type = "string", custom = false, name = "tab_mode" },
 			},
-			section_b = {
-				{ type = "string", custom = false, name = "hovered_size" },
-			},
+			section_b = {},
 			section_c = {
-				{ type = "string", custom = false, name = "hovered_name" },
 				{ type = "coloreds", custom = false, name = "count" },
+				{ type = "string", custom = false, name = "hovered_size" },
 			},
 		},
 		right = {

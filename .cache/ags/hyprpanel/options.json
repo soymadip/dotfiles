@@ -176,7 +176,7 @@
   "theme.bar.buttons.padding_x": "0.5rem",
   "theme.bar.buttons.workspaces.fontSize": "1.2em",
   "bar.windowtitle.label": true,
-  "bar.windowtitle.truncation_size": 45,
+  "bar.windowtitle.truncation_size": 25,
   "theme.bar.menus.menu.clock.scaling": 80,
   "theme.notification.scaling": 95,
   "notifications.showActionsOnHover": true,
