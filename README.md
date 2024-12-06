@@ -224,7 +224,7 @@ I try to stick to some basic rules for my binds:-
 ### Workspace
 
 | Keys                                      | Action                                                        |
-| :---------------------------------------- | :------------------------------------------------------------ | ----------------------------------------- | --- |
+| :---------------------------------------- | :------------------------------------------------------------ |
 | <kbd>Super</kbd> + <kbd>tab</kbd>         | Switch to last used workspace                                 |
 | <kbd>Super</kbd> + <kbd>[0-9]</kbd>       | Switch workspace to relative number                           |
 | <kbd>Super</kbd> + <kbd>S</kbd>           | Toggle to special workspace                                   |
@@ -250,7 +250,7 @@ I try to stick to some basic rules for my binds:-
 ### Screenshot
 
 | Keys                                             | Action                                            |
-| :----------------------------------------------- | :------------------------------------------------ | -------------------------- | --- |
+| :----------------------------------------------- | :------------------------------------------------ |
 | <kbd>PrtScn</kbd>                                | Monitor screenshot capture                        |
 | <kbd>Super</kbd> + <kbd>P</kbd>                  | Partial screenshot capture                        |
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd> | All Monitors screenshot capture                   |
