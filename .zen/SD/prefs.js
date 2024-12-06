@@ -259,7 +259,7 @@ user_pref("services.sync.engine.passwords", false);
 user_pref("services.sync.engine.prefs.modified", false);
 user_pref("services.sync.forms.lastSync", "1733499753.33");
 user_pref("services.sync.forms.syncID", "PCmIhNKAYuyh");
-user_pref("services.sync.globalScore", 2);
+user_pref("services.sync.globalScore", 5);
 user_pref("services.sync.lastPing", 1733473544);
 user_pref("services.sync.lastSync", "Fri Dec 06 2024 21:52:48 GMT+0530 (India Standard Time)");
 user_pref("services.sync.lastTabFetch", 1733502168);
