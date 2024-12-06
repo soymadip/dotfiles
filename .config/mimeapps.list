@@ -1,5 +1,5 @@
 [Added Associations]
-application/json=dev.zed.Zed.desktop;
+application/json=code-oss.desktop;dev.zed.Zed.desktop;
 application/pdf=org.pwmt.zathura-pdf-poppler.desktop;org.gnome.Evince.desktop;atril.desktop;org.kde.okular.desktop;
 application/x-compressed-tar=xarchiver.desktop;
 application/x-desktop=org.gnome.gedit.desktop;
@@ -15,7 +15,7 @@ application/xhtml+xml=zen-alpha.desktop;
 image/jpeg=org.kde.gwenview.desktop;org.nomacs.ImageLounge.desktop;okularApplication_kimgio.desktop;
 image/png=org.kde.gwenview.desktop;
 text/html=zen-alpha.desktop;
-text/plain=pluma.desktop;org.gnome.gedit.desktop;dev.zed.Zed.desktop;org.kde.kate.desktop;
+text/plain=code-oss.desktop;pluma.desktop;org.gnome.gedit.desktop;dev.zed.Zed.desktop;org.kde.kate.desktop;
 text/x-csrc=code-oss.desktop;
 video/mp4=mpv.desktop;
 video/x-matroska=mpv.desktop;

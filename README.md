@@ -231,8 +231,8 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>MouseScroll</kbd> | Scroll through existing workspaces\*                          |
 | <kbd>Super</kbd> + <kbd>PgUp</kbd>        | Pin window (stays visible on all workspaces)                  |
 | <kbd>Super</kbd> + <kbd>PgUp</kbd>        | Pin window (stays visible on all workspaces)                  |
-| <!--                                      | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd><kbd>→</kbd> | Switch workspaces to a relative workspace | --> |
-| <!--                                      | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>↓</kbd>             | Move to the first empty workspace         | --> |
+<!--|                                       | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd><kbd>→</kbd> | Switch workspaces to a relative workspace | -->
+<!--|                                       | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>↓</kbd>             | Move to the first empty workspace         | -->
 
 ### Audio & Brightess
 
@@ -254,7 +254,7 @@ I try to stick to some basic rules for my binds:-
 | <kbd>PrtScn</kbd>                                | Monitor screenshot capture                        |
 | <kbd>Super</kbd> + <kbd>P</kbd>                  | Partial screenshot capture                        |
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd> | All Monitors screenshot capture                   |
-| <!--                                             | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>P</kbd> | Partial screenshot capture | --> |
+<!-- |                                            | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>P</kbd> | Partial screenshot capture | -->
 
 <!-- ### Misc:- -->
 <!-- | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd> | Disable hypr effects for gamemode | -->
@@ -281,7 +281,7 @@ I try to stick to some basic rules for my binds:-
 - Jas-SinghFSU for making [Hyprpanel][hprpnll].
 - Aylur for making [ags][agsl].
 - adil090x for [rofi themes][rfil].
-- [Keyitdev][kdv] for sddm theme.
+- Keyitdev for [sddm][kdv] theme.
 - soymadip for [KireiSakura-Kit][kskt]. :)
 
 </br></br>
@@ -289,7 +289,7 @@ I try to stick to some basic rules for my binds:-
 <!-- ___________________LINKS___________________ -->
 
 [kskt]: https://github.com/soymadip/KireiSakura-Kit
-[kdv]:  https://github.com/Keyitdev
+[kdv]:  https://github.com/Keyitdev/sddm-astronaut-theme
 [hprpnll]: https://github.com/Jas-SinghFSU/HyprPanel
 [agsl]: https://github.com/Aylur/ags
 [rfil]: https://github.com/adi1090x/rofi

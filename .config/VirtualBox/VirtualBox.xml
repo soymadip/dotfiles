@@ -8,18 +8,19 @@
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-linux">
   <Global>
     <ExtraData>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=01492be9-3f11-4458-b961-960226581e28"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="3,46,1912,1030"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=fd9b74e3-063c-4440-8b54-3391f962e99a"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="820,46,1096,1030"/>
       <ExtraDataItem name="GUI/MediumSelector/DialogGeometry" value="627,271,716,467"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/soymadip/Downloads"/>
       <ExtraDataItem name="GUI/RecentFolderHD" value="/home/soymadip/VirtualBox VMs/Arch"/>
-      <ExtraDataItem name="GUI/RecentListCD" value="/home/soymadip/Downloads/archlinux-2024.11.01-x86_64.iso,/home/soymadip/Downloads/aurora-asus-nvidia-latest.iso"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/soymadip/Downloads/archlinux-x86_64.iso,/home/soymadip/Downloads/archlinux-2024.11.01-x86_64.iso,/home/soymadip/Downloads/aurora-asus-nvidia-latest.iso"/>
       <ExtraDataItem name="GUI/RecentListHD" value="/home/soymadip/VirtualBox VMs/Arch/Arch.vdi,/home/soymadip/VirtualBox VMs/Arch/Arch_1.vdi"/>
       <ExtraDataItem name="GUI/Settings/ExpertMode" value="true"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{01492be9-3f11-4458-b961-960226581e28}" src="/home/soymadip/VirtualBox VMs/aurora/aurora.vbox"/>
+      <MachineEntry uuid="{fd9b74e3-063c-4440-8b54-3391f962e99a}" src="/home/soymadip/VirtualBox VMs/arch/arch.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>

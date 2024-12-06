@@ -196,7 +196,7 @@ nohup.*
 /.config/obs-studio/basic/scenes/*.json
 /.config/obs-studio/plugin_config
 /.config/obs-studio/profiler_data
-
+/.config/obs-studio/basic/scenes/Untitled.json.bak
 
 # Obsidian
 /.config/obsidian/*

@@ -220,6 +220,9 @@
   "[lua]": {
     "editor.defaultFormatter": "sumneko.lua"
   },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
 
   // Prettier settings
   "prettier.useTabs": false,
@@ -289,5 +292,8 @@
     "*.db3": "${capture}.${extname}-*",
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   }
 }
