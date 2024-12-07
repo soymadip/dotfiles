@@ -24,6 +24,7 @@ x-scheme-handler/http=zen-alpha.desktop;
 x-scheme-handler/https=re.sonny.Junction.desktop;zen-alpha.desktop;
 x-scheme-handler/tonsite=io.github.tdesktop_x64.TDesktop.desktop;
 application/vnd.efi.iso=xarchiver.desktop;
+application/x-shellscript=dev.zed.Zed.desktop;
 
 [Default Applications]
 application/json=org.kde.kate.desktop;
