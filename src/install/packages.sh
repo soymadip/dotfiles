@@ -34,12 +34,18 @@ sys_pckgs=(
 
 )
 
+
+pre_pckgs=(
+    "zsh"
+    "xorg-xwayland"
+    "xorg-xhost"
+)
+
 core_pckgs=(
 
     "pacman-contrib"
     "paru"
 
-    "zsh"
     "wl-clipboard"
 
     "handlr-regex"
@@ -217,29 +223,7 @@ user_pckgs=(
 )
 
 opt_pckgs=(
-    junction # application chooser
-    flatseal # flatpak permission manager
+    "junction" # application chooser
+    "flatsea" # flatpak permission manager
+    "xwaylandvideobridge"
 )
-
-vscode_extensions=(
-
-    "formulahendry.auto-close-tag"
-    "ms-vscode.cpptools"
-    "Catppuccin.catppuccin-vsc"
-    "thang-nm.catppuccin-perfect-icons"
-    "formulahendry.code-runner"
-    "miguelsolorio.fluent-icons"
-    "GitHub.copilot"
-    "esbenp.prettier-vscode"
-    "ms-python.python"
-    "ms-pyright.pyright"
-    "asvetliakov.vscode-neovim"
-    "TheNuProjectContributors.vscode-nushell-lang"
-    "wix.vscode-import-cost"
-    "ms-python.vscode-pylance"
-    # ""
-    # ""
-    # ""
-    # ""
-    # ""
-  )
