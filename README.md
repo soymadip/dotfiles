@@ -62,11 +62,14 @@
 
 <h2 align="center">-----: ScreenShots :-----</h2>
 
-<div>
-<img src="./src/Assets/desktop.png" alt="1" width="45%" >  
-<img src="./src/Assets/kitty.png" alt="1"  width="45%">
+<div align="center">
+  <div>
+    <img src="./src/Assets/desktop.png" alt="1" width="45%" >  
+    <img src="./src/Assets/kitty.png" alt="1"  width="45%">
+  </div>
 </div>
-
+<br>
+  
 <h2 align="center">-----: App Utilities :-----</h2>
 
 <details>
@@ -276,7 +279,7 @@ I try to stick to some basic rules for my binds:-
 
 <h2 align="center">-----: ⚠️ :-----</h2>
 
-- I have just recently started using Hyprland, WM in general, so my dotfiles are reguraly being updated as i learn new things & add them to make setup as close as possible to complete DE.
+- I have just recently started using Hyprland (WM in general), so my dotfiles are reguraly being updated as i learn new things & add them to make setup as close as possible to complete DE.
 - Also install script is not yet ready, I am working on it's [dependency library][kskt] which is pretty close to being workable.
 
 </br>
