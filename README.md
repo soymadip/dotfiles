@@ -34,6 +34,20 @@
 
 <!-- -------- Header End --------- -->
 
+<h2 align="center">-----: ScreenShots :-----</h2>
+
+<div align="center">
+  <div>
+    <img src="./src/Assets/desktop.png" alt="1" width="45%" >  
+  </div>
+  <div>
+    <img src="./src/Assets/kitty.png" alt="1"  width="45%">
+    <img src="./src/Assets/tiling.png" alt="1"  width="45%">
+  </div>
+</div>
+
+<br>
+
 <h2 align="center">-----: Setup Overview :-----</h2>
 
 ```zsh
@@ -60,16 +74,8 @@
  Memory: 2.40 GiB / 15.63 GiB
 ```
 
-<h2 align="center">-----: ScreenShots :-----</h2>
-
-<div align="center">
-  <div>
-    <img src="./src/Assets/desktop.png" alt="1" width="45%" >  
-    <img src="./src/Assets/kitty.png" alt="1"  width="45%">
-  </div>
-</div>
 <br>
-  
+
 <h2 align="center">-----: App Utilities :-----</h2>
 
 <details>

@@ -126,9 +126,10 @@
     "perl": "prnt_cprmt; perl $fileName; prnt_cftr",
     "ruby": "prnt_cprmt; ruby $fileName; prnt_cftr",
     "go": "prnt_cprmt; go run $fileName; prnt_cftr",
-    "html": "librewolf",
+    "html": "handlr open $fileName",
     "java": "prnt_cprmt; javac $fileName && java $fileNameWithoutExt; prnt_cftr",
-    "c": "prnt_cprmt; gcc $fileName -o $fileNameWithoutExt_compiled && ./$fileNameWithoutExt_compiled; rm $fileNameWithoutExt_compiled;  prnt_cftr"
+    "c": "prnt_cprmt; gcc $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled;  prnt_cftr",
+    "cpp": "prnt_cprmt; g++ $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled;  prnt_cftr"
   },
 
   // Terminal
@@ -161,6 +162,7 @@
     "scminput": false,
     "c": false
   },
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
 
   // CSS
   "css.lint.boxModel": "warning",
@@ -187,6 +189,7 @@
   "git.terminalGitEditor": true,
   "diffEditor.maxComputationTime": 0,
   "diffEditor.codeLens": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "merge-conflict.autoNavigateNextConflict.enabled": true,
 
   // Import Cost
@@ -297,6 +300,5 @@
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "yaml.disableDefaultProperties": true,
-  "chat.editing.alwaysSaveWithGeneratedChanges": true
+  "yaml.disableDefaultProperties": true
 }
