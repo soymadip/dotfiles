@@ -1,13 +1,12 @@
-        _ _   _
-   __ _(_) |_(_) __ _ _ __   ___  _ __ ___
-  / _` | | __| |/ _` | '_ \ / _ \| '__/ _ \
- | (_| | | |_| | (_| | | | | (_) | | |  __/
-(_)__, |_|\__|_|\__, |_| |_|\___/|_|  \___|
-  |___/         |___/
+#         _ _   _
+#    __ _(_) |_(_) __ _ _ __   ___  _ __ ___
+#   / _` | | __| |/ _` | '_ \ / _ \| '__/ _ \
+#  | (_| | | |_| | (_| | | | | (_) | | |  __/
+# (_)__, |_|\__|_|\__, |_| |_|\___/|_|  \___|
+#   |___/         |___/
 
-# As we need to filter out any sensitive/unnecessary information 
+# As we need to filter out any sensitive/unnecessary information
 # form posting in our dotfiles repo.
-
 
 #___________ Global Rules ____________
 *.lock
@@ -36,10 +35,7 @@ Trash
 KireiSakura-Kit
 nohup.*
 
-
-
 #___________ Home Directory ($HOME) ____________
-
 
 # Firefox and Forks
 /.librewolf/*/*
@@ -55,15 +51,12 @@ nohup.*
 
 /.mozilla/firefox/*
 
-
 # Icons
 /.icons/default
-
 
 # Pictures
 /Pictures/*
 !/Pictures/Wallpaper
-
 
 # Zen Browser
 /.zen/*/*
@@ -80,9 +73,6 @@ nohup.*
 !/.zen/*/zen-keyboard-shortcuts.json
 !/.zen/*/zen-workspaces
 
-
-
-
 #___________ .cache Directory ____________
 
 # AGS Cache
@@ -93,10 +83,7 @@ nohup.*
 /.cache/ags/*
 !/.cache/ags/hyprpanel
 
-
-
 #___________ .config Directory ____________
-
 
 # Standalone files
 /.config/*partrc
@@ -107,79 +94,63 @@ nohup.*
 /.config/QtProject.conf
 /.config/user-dirs.locale
 
-
 # Brave Browser
 /.config/BraveSoftware/Brave-Browser/*
 !/.config/BraveSoftware/Brave-Browser/Default/Preferences
 !/.config/BraveSoftware/Brave-Browser/NativeMessagingHosts
 
-
 # Chromium
 /.config/chromium/
-
 
 # CopyQ
 /.config/copyq/*
 !/.config/copyq/copyq.conf
 !/.config/copyq/copyq*.ini
 
-
 # Dconf
 /.config/dconf
-
 
 # Discord canary
 /.config/discordcanary
 
-
 # Geany
 /.config/geany/
-
 
 # GitHub CLI (gh)
 /.config/gh/*
 !/.config/gh/config.yml
-
 
 # HandBrake (ghb)
 /.config/ghb/*
 !/.config/ghb/preferences.json
 !/.config/ghb/presets.json
 
-
 # gimp
 /.config/GIMP/2.10/*
 !/.config/GIMP/**/themes
 !/.config/GIMP/**/*rc
-
 
 # Github Copilot
 /.config/GitHub Desktop/*
 !/.config/GitHub Desktop/.title-bar-config
 !/.config/GitHub Desktop/Preferences
 
-
 # Github Copilot
 /.config/github-copilot
-
 
 # GNOME
 /.config/gnome-boxes
 
-
 # Go
 /.config/go
 
-
 # Hypr
 /.config/HyprPanel
-
 
 # KDE
 /.config/KDE/UserFeedback*
 /.config/kde*/UserFeedback*
 /.config/kdeconnect
-
 
 # LibreOffice
 /.config/libaccounts-glib
@@ -191,17 +162,14 @@ nohup.*
 /.config/libreoffice/4/user/pack/registrymodifications.pack
 !/.config/libreoffice/4/user/registrymodifications.xcu
 
-
 # Media Players
 /.config/mpv/playlists
 /.config/mpv/watch_later
 /.config/vlc/vlc-qt-interface.conf
 
-
 # MKVToolNix
 /.config/bunkus.org/mkvtoolnix-gui/*
 !/.config/bunkus.org/mkvtoolnix-gui/mkvtoolnix-gui.ini
-
 
 # OBS Studio
 /.config/obs-studio/basic/profiles/*/phld
@@ -213,16 +181,13 @@ nohup.*
 # Obsidian
 /.config/obsidian/*
 
-
 # Spicetify
 /.config/spicetify/CustomApps
 /.config/spicetify/Extracted
 
-
 # VirtualBox
 /.config/VirtualBox/*
 !/.config/VirtualBox/VirtualBox.xml
-
 
 # VS Code and Forks
 /.config/Code/*
@@ -241,37 +206,27 @@ nohup.*
 !/.config/VSCodium/User/settings.json
 !/.config/VSCodium/User/snippets
 
-
 # WebCord
 /.config/WebCord/*
-
 
 # Youtube Music
 /.config/YouTube Music/*
 !/.config/YouTube Music/config.json
 !/.config/YouTube Music/Preferences
 
-
 # Yazi
 /.config/yazi/plugins
-
 
 # ZSH
 /.config/zsh/------OLD------
 /.config/zsh/zinit
 /.config/zsh/*history*
 
-
-
-
 #___________ .local Directory ____________
-
 
 #------ Bin ------
 /.local/bin/*
 !/.local/bin/kireisakura
-
-
 
 #------ Share ------
 /.local/share/*
@@ -286,11 +241,9 @@ nohup.*
 !/.local/share/templates
 !/.local/share/color-schemes
 
-
 # Qalculate
 !/.local/share/qalculate
 .config/qalculate/*.history
-
 
 # 64Gram
 /.local/share/64Gram/logs*
@@ -298,23 +251,19 @@ nohup.*
 !/.local/share/64Gram/tdata/enhanced-settings-custom.json
 !/.local/share/64Gram/tdata/shortcuts-custom.json
 
-
 # Dolphin and KDE apps
 /.local/share/dolphin/kuserfeedback
 /.local/share/dolphin/bookmarks.xml
 /.local/share/konsole/bookmarks.xml
 
-
 # Flatpak
 /.local/share/flatpak/*
 !/.local/share/flatpak/overrides
-
 
 # Media Downloader
 /.local/share/media-downloader/bin
 /.local/share/media-downloader/data
 /.local/share/media-downloader/engines.v1
-
 
 # Plasma Desktop
 /.local/share/plasma/containmentpreviews
@@ -326,8 +275,6 @@ nohup.*
 /.local/share/plasma/desktoptheme/Wings-Dark-Plasma
 /.local/share/plasma/look-and-feel
 /.local/share/konsole/konsolestaterc
-
-
 
 # ------ state -----
 /.local/state
