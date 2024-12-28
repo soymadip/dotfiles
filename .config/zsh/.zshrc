@@ -71,6 +71,7 @@ export AUTO_NOTIFY_IGNORE=("docker" "top" "htop" "btm" "nvim" "vim" "nano" "man"
 import-mod --all
 
 eval_fzf
+eval "$(zoxide init zsh --cmd cdz)"
 # eval "$(atuin init zsh)"
 
 bat cache --build &>/dev/null
@@ -127,7 +128,7 @@ setopt hist_find_no_dups
 #____________________________Aliases_______________________________________
 alias :q='exit'
 alias sudo='sudo ' # expand aliases with sudo
-alias ls='lsd'
+alias ls='eza -a --sort=name --group-directories-first --icons=always --hyperlink'
 alias tree='lsd --tree --depth 3'
 alias cp='cp -ri'
 alias cd='cd_ls'

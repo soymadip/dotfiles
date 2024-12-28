@@ -1,7 +1,6 @@
-
 /*****----- Configuration -----*****/
 configuration {
-	modi:                     "drun,run,filebrowser,ssh,window";
+    modi:                     "drun,run,filebrowser,ssh,window";
     show-icons:               true;
     icon-theme:               "Papirus-Dark";
     display-drun:             " Apps";
@@ -9,7 +8,8 @@ configuration {
     display-filebrowser:      " Files";
     display-window:           " Windows";
 	display-ssh:              "  SSH";
-	drun-display-format:      "<b>{name}</b> [<span weight='light' size='small'>({generic})</span>]";
+	drun-display-format:      "<b>{name}</b>";
+	//drun-display-format:      "<b>{name}</b> [<span weight='light' size='small'>({generic})</span>]";
 	window-format:            "{w} · {c} · {t}";
 }
 
@@ -266,6 +266,7 @@ mode-switcher{
     background-color:            @alternate-background;
     text-color:                  @foreground-colour;
 }
+
 button {
     padding:                     0px 20px 0px 20px;
     border:                      0px 2px 0px 0px;
@@ -277,6 +278,7 @@ button {
     horizontal-align:            0.0;
     cursor:                      pointer;
 }
+
 button selected {
     border:                      2px 0px 2px 2px;
     border-radius:               8px 0px 0px 8px;

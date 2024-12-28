@@ -1,0 +1,30 @@
+{
+	"Boilerplate": {
+		"prefix": "boiler",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"en\">",
+			"<head>",
+			"    <meta charset=\"UTF-8\">",
+			"    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+			"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+			"    <title>${1:Document}</title>",
+			"</head>",
+			"<body>",
+			"    ${2: TODO:Content}",
+			"</body>",
+			"</html>"
+		],
+		"description": "HTML boilerplate"
+	},
+
+	"Table Row": {
+		"prefix": "tablerow",
+		"body": [
+			"<tr>",
+			"    <th>${1:Header}</th>",
+			"</tr>"
+		],
+		"description": "HTML Table Row"
+	},
+}

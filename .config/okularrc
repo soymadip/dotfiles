@@ -3,10 +3,12 @@
 1920x1080 screen: Window-Maximized=true
 1920x1080 screen: XPosition=2
 1920x1080 screen: YPosition=26
-State=AAAA/wAAAAD9AAAAAQAAAAAAAAEOAAAD7vwCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAAAuAAAD7gAAAQ4BAAACAAAGMQAAA+4AAAAEAAAABAAAAAgAAAAI/AAAAAIAAAABAAAAAgAAACIAYQBuAG4AbwB0AGEAdABpAG8AbgBUAG8AbwBsAEIAYQByAwAAAAAAAALCAAAAAAAAAAAAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAACwv////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAAAAA6oAAAAAAAAAAA==
+MenuBar=Disabled
 
 [Desktop Entry]
-FullScreen=false
+FullScreen=true
+shouldShowMenuBarComingFromFullScreen=false
+shouldShowToolBarComingFromFullScreen=true
 
 [FileDialogSize]
 1920x1080 screen: Height=441
@@ -14,7 +16,7 @@ FullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=false
+ShowSidebar=true
 
 [MainWindow]
 1920x1080 screen: Height=700
@@ -37,12 +39,26 @@ IconSize=16
 ShowTabWarning=true
 
 [Recent Files]
-File1[$e]=$HOME/MF/Study/Algorithms book.pdf
-File2[$e]=$HOME/MF/Study/Algo/Algorithms book.pdf
-File3[$e]=$HOME/MF/Study/python/Unit 3 Functions in Python.pdf
-Name1[$e]=Algorithms book.pdf
-Name2[$e]=Algorithms book.pdf
-Name3[$e]=Unit 3 Functions in Python.pdf
+File1[$e]=$HOME/MF/Study/python/PYTHON PYQ (2022,23,24).pdf
+File10[$e]=$HOME/MF/Study/Algo/Algorithms book.pdf
+File2[$e]=$HOME/Downloads/Utilization Certificate.pdf
+File3[$e]=$HOME/Downloads/2nd sem recipt.pdf
+File4[$e]=$HOME/Downloads/2nd sem recipt-compressed.pdf
+File5[$e]=$HOME/MF/Study/python/Unit 3 Functions in Python.pdf
+File6[$e]=$HOME/Downloads/DS MCQ SET.pdf
+File7[$e]=$HOME/Downloads/CSO topics.pdf
+File8[$e]=$HOME/MF/Study/rough/2.png
+File9[$e]=$HOME/Downloads/Dsa algorithm-3.pdf
+Name1[$e]=PYTHON PYQ (2022,23,24).pdf
+Name10[$e]=Algorithms book.pdf
+Name2[$e]=Utilization Certificate.pdf
+Name3[$e]=2nd sem recipt.pdf
+Name4[$e]=2nd sem recipt-compressed.pdf
+Name5[$e]=Unit 3 Functions in Python.pdf
+Name6[$e]=DS MCQ SET.pdf
+Name7[$e]=CSO topics.pdf
+Name8[$e]=2.png
+Name9[$e]=Dsa algorithm-3.pdf
 
 [Toolbar annotationToolBar]
 IconSize=16

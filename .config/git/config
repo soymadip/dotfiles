@@ -15,3 +15,11 @@
 	smudge = git-lfs smudge -- %f
 [diff]
 	submodule = log
+[credential]
+	credentialStore = secretservice
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

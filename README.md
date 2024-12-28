@@ -60,7 +60,12 @@
  Memory: 2.40 GiB / 15.63 GiB
 ```
 
-<!-- ------------------ -->
+<h2 align="center">-----: ScreenShots :-----</h2>
+
+<div>
+<img src="./src/Assets/desktop.png" alt="1" width="45%" >  
+<img src="./src/Assets/kitty.png" alt="1"  width="45%">
+</div>
 
 <h2 align="center">-----: App Utilities :-----</h2>
 

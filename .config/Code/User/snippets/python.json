@@ -1,0 +1,11 @@
+{
+	"For Loop": {
+		"prefix": "forloop",
+		"body": [
+			"for ${1:i} in ${2:LIST}:",
+			"    if ${3:i} == ${4:CONDITION}:",
+			"        ${5:pass}"
+		],
+		"description": "Python for loop with a condition"
+	}
+}

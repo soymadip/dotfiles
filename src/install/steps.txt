@@ -10,7 +10,7 @@ setup catppuccin frapppe lavender cursors
 change papirus folders color
 set cursor size to 32
 
-set sddm theme 
+set sddm theme
 
 change wallpaper
 

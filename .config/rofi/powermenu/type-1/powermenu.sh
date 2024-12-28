@@ -5,8 +5,8 @@ dir="$HOME/.config/rofi/powermenu/type-1"
 theme='style-1'
 
 # CMDs
-uptime="`uptime -p | sed -e 's/up //g'`"
-host=`hostname`
+uptime="$(uptime -p | sed -e 's/up //g')"
+host=$(hostname)
 
 # Options
 shutdown=' ⏼  Shutdown'
@@ -22,7 +22,7 @@ rofi_cmd() {
 	rofi -dmenu \
 		-p "$host" \
 		-mesg "Uptime: $uptime" \
-		-theme ${dir}/${theme}.rasi
+		-theme "${dir}"/${theme}.rasi
 }
 
 # Confirmation CMD
@@ -35,7 +35,7 @@ confirm_cmd() {
 		-dmenu \
 		-p 'Confirmation' \
 		-mesg 'Are you Sure?' \
-		-theme ${dir}/${theme}.rasi
+		-theme "${dir}"/${theme}.rasi
 }
 
 # Ask for confirmation
@@ -45,7 +45,7 @@ confirm_exit() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$suspend\n$shutdown\n$reboot\n$logout\n$lock" | rofi_cmd
+	echo -e "$suspend\n$shutdown\n$lock\n$reboot\n$logout" | rofi_cmd
 }
 
 # Execute Command
@@ -58,6 +58,7 @@ run_cmd() {
 			systemctl reboot
 		elif [[ $1 == '--suspend' ]]; then
 			mpc -q pause
+			loginctl lock-session
 			systemctl suspend
 		elif [[ $1 == '--logout' ]]; then
 			if [[ "$DESKTOP_SESSION" == 'openbox' ]]; then
@@ -69,7 +70,19 @@ run_cmd() {
 			elif [[ "$DESKTOP_SESSION" == 'plasma' ]]; then
 				qdbus org.kde.ksmserver /KSMServer logout 0 0 0
 			elif [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
-			  hyprctl dispatch exit	
+				hyprctl dispatch exit
+			fi
+		elif [[ $1 == '--lock' ]]; then
+			if [[ -x '/usr/bin/betterlockscreen' ]]; then
+				betterlockscreen -l
+			elif [[ -x '/usr/bin/i3lock' ]]; then
+				i3lock
+			else
+				loginctl lock-session
+			fi
+		elif [[ $1 == '--screen-off' ]]; then
+			if [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
+				sleep 1 && hyprctl dispatch dpms toggle
 			fi
 		fi
 	else
@@ -80,25 +93,22 @@ run_cmd() {
 # Actions
 chosen="$(run_rofi)"
 case ${chosen} in
-    $shutdown)
-		run_cmd --shutdown
-        ;;
-    $reboot)
-		run_cmd --reboot
-        ;;
-    $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
-    else
-     loginctl lock-session
-    fi
-        ;;
-    $suspend)
-		run_cmd --suspend
-        ;;
-    $logout)
-		run_cmd --logout
-        ;;
+"$shutdown")
+	run_cmd --shutdown
+	;;
+"$reboot")
+	run_cmd --reboot
+	;;
+"$lock")
+	run_cmd --lock
+	;;
+"$suspend")
+	run_cmd --suspend
+	;;
+"$logout")
+	run_cmd --logout
+	;;
+"$scrnof")
+	run_cmd --screen-off
+	;;
 esac

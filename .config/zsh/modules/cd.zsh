@@ -1,5 +1,5 @@
 
 cd_ls ()
 {
-  cd $1;  echo ""; lsd --git;  sleep 0.3 
+  cdz $1; sleep 0.1; echo ""; eza -a --sort=name --group-directories-first --icons=always --hyperlink;  sleep 0.3 
 }

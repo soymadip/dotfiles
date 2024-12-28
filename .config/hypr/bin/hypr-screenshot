@@ -1,0 +1,15 @@
+#!/bin/bash
+
+dest_dir="$1"
+
+if [[ ! -d "$dest_dir" ]]; then
+    mkdir -p "$dest_dir"
+fi
+
+date_time=$(date +"%y-%m-%d_%H-%M-%S")
+
+file_path="$dest_dir/SS_$date_time.png"
+
+grimblast --notify --freeze copysave area "$file_path"
+
+hypr-notify -n "Hypr-Screenshot" "Screenshot saved as $file_path"

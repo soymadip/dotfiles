@@ -1,0 +1,26 @@
+{
+	"Boilerplate": {
+		"prefix": "boiler",
+		"body": [
+			"#include <stdio.h>",
+			"",
+			"",
+			"${1:void} main() {",
+			"",
+			"    ${2:// funcion logic};",
+			"",
+			"}"
+		],
+		"description": "C boilerplate"
+	},
+
+	"Function": {
+		"prefix": "func",
+		"body": [
+			"${1:void} ${2:functionName}(${3:void}) {",
+			"    ${4:// TODO: Implement function body};",
+			"}"
+		],
+		"description": "Template for a C function"
+	}
+}

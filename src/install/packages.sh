@@ -31,6 +31,7 @@ nvidia_pckgs=(
 
 
 sys_pckgs=(
+    "intel-ucode"
 
 )
 
@@ -74,7 +75,6 @@ core_pckgs=(
     "rsync"
     "enchant"
     "hunspell-en_US"
-    "speech-dispatcher"
     "qt5-tools"
     "gtk4"
     "libdbusmenu-glib"
@@ -132,6 +132,7 @@ cli_pckgs=(
     "yt-dlp"
     "lazygit"
     "ookla-speedtest-bin"
+    "yad"
 )
 
 
@@ -169,6 +170,7 @@ hypr_core_pckgs=(
     "copyq"
     "rofi-wayland"
     "network-manager-applet"
+    "ags-hyprpanel"
 )
 
 

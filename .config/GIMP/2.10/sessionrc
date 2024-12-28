@@ -80,6 +80,9 @@
     (factory-entry "gimp-file-open-dialog")
     (position 350 203)
     (size 966 567))
+(session-info "toplevel"
+    (factory-entry "gimp-image-new-dialog")
+    (position 693 355))
 
 (hide-docks no)
 (single-window-mode yes)

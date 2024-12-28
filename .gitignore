@@ -136,8 +136,15 @@ nohup.*
 /.config/geany/
 
 
-# ghb
-/.config/ghb
+# GitHub CLI (gh)
+/.config/gh/*
+!/.config/gh/config.yml
+
+
+# HandBrake (ghb)
+/.config/ghb/*
+!/.config/ghb/preferences.json
+!/.config/ghb/presets.json
 
 
 # gimp
@@ -191,6 +198,11 @@ nohup.*
 /.config/vlc/vlc-qt-interface.conf
 
 
+# MKVToolNix
+/.config/bunkus.org/mkvtoolnix-gui/*
+!/.config/bunkus.org/mkvtoolnix-gui/mkvtoolnix-gui.ini
+
+
 # OBS Studio
 /.config/obs-studio/basic/profiles/*/phld
 /.config/obs-studio/basic/scenes/*.json
@@ -238,6 +250,10 @@ nohup.*
 /.config/YouTube Music/*
 !/.config/YouTube Music/config.json
 !/.config/YouTube Music/Preferences
+
+
+# Yazi
+/.config/yazi/plugins
 
 
 # ZSH

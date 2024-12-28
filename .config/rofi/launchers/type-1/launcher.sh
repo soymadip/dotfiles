@@ -17,4 +17,4 @@ style='style-9'
 ## Run
 rofi \
     -show drun \
-    -theme ${dir}/${style}.rasi
+    -theme "${dir}"/${style}.rasi

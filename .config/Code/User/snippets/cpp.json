@@ -1,0 +1,34 @@
+{
+	"Boilerplate-Cpp": {
+		"prefix": "boiler",
+		"body": [
+			"#include <iostream>",
+			"",
+			"",
+			"${1:void} main() {",
+			"",
+			"    ${2:// code here}",
+			"    return 0;",
+			"}"
+		],
+		"description": "C++ boilerplate"
+	},
+
+
+	"Class Template-cpp": {
+		"prefix": "cppclass",
+		"body": [
+			"class ${1:ClassName} {",
+			"public:",
+			"    ${1:ClassName}() { ${2:// Constructor body} }",
+			"    ~$1() { ${3:// Destructor body} }",
+			"",
+			"    void ${4:methodName}() {",
+			"        ${5:// TODO: Implement method}",
+			"    }",
+			"};"
+		],
+		"description": "Basic C++ class template"
+	}
+
+}

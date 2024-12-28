@@ -34,16 +34,47 @@ prnt_cftr() {
 }
 
 
-#
-# rn_cr_cmd() {
-#   command="$()" 
-#
-#   echo -e "\n============ OUTPUT ==============\n"
-#   "${command}"
-#   echo -e "\n============ END ==============\n"
-#   echo -e "\n${RED}Do you wanna close the Terminal now?${NC}"
-#   echo -n "==-> "; read confirm
-#   if [[ "$confirm" == "y" ]] || [[ "$confirm" == "Y" ]] || [[ -z "$confirm" ]]; then
-#     exit
-#   fi
-# }
+
+dcrt_cmd() {
+  local command="$1"
+
+  if [ -z "$command" ]; then
+    echo "No command provided."
+    return 1
+  fi
+
+  YELLOW='\033[0;33m'
+  GREEN='\033[0;32m'
+  RED='\033[0;31m'
+  NC='\033[0m' # No Color
+
+  clear -x
+  echo -e "\n${YELLOW}============= OUTPUT ==============${NC}\n"
+
+  echo "command: $command"
+  eval "$command"
+  exit_status=$?
+
+
+  if [ $exit_status -eq 0 ]; then
+    color="$GREEN"
+  else
+    color="$RED"
+  fi
+
+  echo -e "\n${color}============== END ================${NC}\n"
+
+
+
+ echo -e "[?] Close the Terminal now?" 
+ echo -n "==>"
+ read answer
+
+  case $answer in
+    [Yy]* ) exit 0;;
+    "" ) exit 0;;
+    [Nn]* ) echo "Terminal will remain open.";;
+    * ) echo "Invalid response. Terminal will remain open.";;
+  esac
+}
+
