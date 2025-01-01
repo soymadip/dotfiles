@@ -300,5 +300,6 @@
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "yaml.disableDefaultProperties": true
+  "yaml.disableDefaultProperties": true,
+  "editor.tabSize": 2
 }

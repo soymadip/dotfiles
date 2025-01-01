@@ -20,5 +20,12 @@ allowMeteredFeedUpdates=true
 allowMeteredImageDownloads=true
 allowMeteredStreaming=true
 
+[Synchronization]
+syncDevice=kasts-LAPTOP-SD
+syncDeviceName=Kasts on LAPTOP-SD
+syncEnabled=true
+syncHostname=https://soymadip.koyeb.app
+syncUsername=soymadip
+
 [UiSettings]
 ColorScheme=Catppuccin Macchiato Maroon

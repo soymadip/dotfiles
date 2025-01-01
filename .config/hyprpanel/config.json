@@ -29,8 +29,8 @@
   "bar.launcher.rightClick": "hypr-panel -t settings-dialog",
   "theme.bar.buttons.workspaces.enableBorder": false,
   "bar.workspaces.show_icons": false,
-  "bar.workspaces.show_numbered": false,
-  "bar.workspaces.numbered_active_indicator": "highlight",
+  "bar.workspaces.show_numbered": true,
+  "bar.workspaces.numbered_active_indicator": "underline",
   "bar.workspaces.showWsIcons": false,
   "bar.workspaces.workspaces": 6,
   "bar.workspaces.hideUnoccupied": false,
@@ -144,7 +144,7 @@
   "theme.bar.menus.menu.media.border.color": "#292c3c",
   "bar.customModules.submap.label": true,
   "bar.windowtitle.title_map": [],
-  "theme.bar.buttons.radius": "0.5em",
+  "theme.bar.buttons.radius": "0.9em",
   "bar.systray.ignore": [
     "CopyQ_copyq"
   ],
@@ -232,9 +232,13 @@
   "menus.dashboard.shortcuts.left.shortcut3.tooltip": "quit window",
   "terminal": "$TERMINAL",
   "menus.transition": "crossfade",
-  "menus.transitionTime": 150,
+  "menus.transitionTime": 0,
   "bar.workspaces.monitorSpecific": true,
   "bar.workspaces.spacing": 0.5,
-  "bar.workspaces.applicationIconOncePerWorkspace": true,
-  "bar.notifications.hideCountWhenZero": true
+  "bar.workspaces.applicationIconOncePerWorkspace": false,
+  "bar.notifications.hideCountWhenZero": true,
+  "bar.customModules.submap.showSubmapName": true,
+  "bar.customModules.hyprsunset.label": false,
+  "bar.workspaces.showApplicationIcons": false,
+  "bar.media.show_label": true
 }

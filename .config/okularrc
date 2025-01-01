@@ -39,26 +39,26 @@ IconSize=16
 ShowTabWarning=true
 
 [Recent Files]
-File1[$e]=$HOME/MF/Study/python/PYTHON PYQ (2022,23,24).pdf
-File10[$e]=$HOME/MF/Study/Algo/Algorithms book.pdf
-File2[$e]=$HOME/Downloads/Utilization Certificate.pdf
-File3[$e]=$HOME/Downloads/2nd sem recipt.pdf
-File4[$e]=$HOME/Downloads/2nd sem recipt-compressed.pdf
-File5[$e]=$HOME/MF/Study/python/Unit 3 Functions in Python.pdf
-File6[$e]=$HOME/Downloads/DS MCQ SET.pdf
-File7[$e]=$HOME/Downloads/CSO topics.pdf
-File8[$e]=$HOME/MF/Study/rough/2.png
-File9[$e]=$HOME/Downloads/Dsa algorithm-3.pdf
-Name1[$e]=PYTHON PYQ (2022,23,24).pdf
-Name10[$e]=Algorithms book.pdf
-Name2[$e]=Utilization Certificate.pdf
-Name3[$e]=2nd sem recipt.pdf
-Name4[$e]=2nd sem recipt-compressed.pdf
-Name5[$e]=Unit 3 Functions in Python.pdf
-Name6[$e]=DS MCQ SET.pdf
-Name7[$e]=CSO topics.pdf
-Name8[$e]=2.png
-Name9[$e]=Dsa algorithm-3.pdf
+File1[$e]=$HOME/Downloads/2nd sem recipt.pdf
+File10[$e]=$HOME/MF/obsidian/.trash/index 4.md
+File2[$e]=$HOME/Downloads/2nd sem recipt-compressed.pdf
+File3[$e]=$HOME/MF/Study/python/Unit 3 Functions in Python.pdf
+File4[$e]=$HOME/Downloads/DS MCQ SET.pdf
+File5[$e]=$HOME/Downloads/CSO topics.pdf
+File6[$e]=$HOME/MF/Study/rough/2.png
+File7[$e]=$HOME/Downloads/Dsa algorithm-3.pdf
+File8[$e]=$HOME/MF/Study/Algo/Algorithms book.pdf
+File9[$e]=$HOME/MF/obsidian/.trash/README.md
+Name1[$e]=2nd sem recipt.pdf
+Name10[$e]=index 4.md
+Name2[$e]=2nd sem recipt-compressed.pdf
+Name3[$e]=Unit 3 Functions in Python.pdf
+Name4[$e]=DS MCQ SET.pdf
+Name5[$e]=CSO topics.pdf
+Name6[$e]=2.png
+Name7[$e]=Dsa algorithm-3.pdf
+Name8[$e]=Algorithms book.pdf
+Name9[$e]=README.md
 
 [Toolbar annotationToolBar]
 IconSize=16

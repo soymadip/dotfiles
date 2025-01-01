@@ -143,7 +143,7 @@ alias chhostname='hostnamectl set-hostname'
 alias cat='bat'
 alias man='batman'
 alias fzf='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
-alias lnr='ln -s -r -i'
+alias lnr='ln_relative'
 alias papirus-folders='pprus_ch_fldr_clr'
 alias reboot='echo " reebooting......" && sleep 5 && reboot'
 

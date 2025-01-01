@@ -1,4 +1,3 @@
-
 rice_pckgs=(
 
     "ttf-hack-nerd"
@@ -160,6 +159,7 @@ hypr_core_pckgs=(
 
     "hyprland"
     "xdg-desktop-portal-hyprland"
+    "xdg-desktop-portal-gtk" # for file picker
     "polkit-gnome"
     "hyprpaper"
     "hyprlock"

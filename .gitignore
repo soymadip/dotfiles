@@ -113,6 +113,9 @@ nohup.*
 # Discord canary
 /.config/discordcanary
 
+# Enchant
+/.config/enchant
+
 # Geany
 /.config/geany/
 
