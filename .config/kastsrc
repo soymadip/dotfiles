@@ -6,7 +6,7 @@ showTrayIcon=true
 trayIconType=Light
 
 [General]
-autoFeedUpdateInterval=4
+autoFeedUpdateInterval=12
 doFullUpdate=false
 markAsPlayedBeforeEnd=60
 markUnreadOnNewFeed=Custom

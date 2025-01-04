@@ -1,4 +1,7 @@
 Initialization
 KireiSakura
+POSIX
+TODO
+UI
 initializing
-checksum_v1 = 84a2bd2c37260d5a161e980b21f5fd92
+checksum_v1 = 100e8b9aab6f97bf2f4e27cf9969297b

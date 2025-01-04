@@ -35,8 +35,6 @@
   "catppuccin.bracketMode": "dimmed",
   "alt-catppuccin.syntaxMode": "default",
   "catppuccin-noctis-icons.hidesExplorerArrows": false,
-
-  "window.menuBarVisibility": "toggle",
   "workbench.startupEditor": "none",
   "workbench.list.smoothScrolling": true,
   "workbench.panel.defaultLocation": "right",
@@ -102,6 +100,7 @@
   "editor.definitionLinkOpensInPeek": true,
   "editor.smoothScrolling": true,
   "editor.minimap.autohide": true,
+  "editor.tabSize": 2,
 
   // SCM
   "scm.alwaysShowActions": true,
@@ -297,9 +296,6 @@
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
   },
-  "[ignore]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
   "yaml.disableDefaultProperties": true,
-  "editor.tabSize": 2
+  "window.menuBarVisibility": "toggle"
 }
