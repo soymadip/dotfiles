@@ -29,11 +29,11 @@
   "bar.launcher.rightClick": "hypr-panel -t settings-dialog",
   "theme.bar.buttons.workspaces.enableBorder": false,
   "bar.workspaces.show_icons": false,
-  "bar.workspaces.show_numbered": true,
+  "bar.workspaces.show_numbered": false,
   "bar.workspaces.numbered_active_indicator": "underline",
-  "bar.workspaces.showWsIcons": false,
-  "bar.workspaces.workspaces": 6,
-  "bar.workspaces.hideUnoccupied": false,
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.workspaces": 5,
+  "bar.workspaces.hideUnoccupied": true,
   "bar.workspaces.workspaceMask": false,
   "bar.workspaces.scroll_speed": 10,
   "theme.bar.buttons.windowtitle.enableBorder": false,
@@ -63,7 +63,6 @@
       "left": [
         "dashboard",
         "workspaces",
-        "windowtitle",
         "media"
       ],
       "middle": [
@@ -83,7 +82,6 @@
       "left": [
         "dashboard",
         "workspaces",
-        "windowtitle",
         "media"
       ],
       "middle": [
@@ -143,7 +141,48 @@
   "theme.bar.buttons.volume.spacing": "0.2em",
   "theme.bar.menus.menu.media.border.color": "#292c3c",
   "bar.customModules.submap.label": true,
-  "bar.windowtitle.title_map": [],
+  "bar.windowtitle.title_map": [
+    [
+      "kitty",
+      "󰄛",
+      "Kitty Terminal"
+    ],
+    [
+      "firefox",
+      "󰈹",
+      "Firefox"
+    ],
+    [
+      "microsoft-edge.*",
+      "󰇩",
+      "Edge"
+    ],
+    [
+      "discord",
+      "",
+      "Discord"
+    ],
+    [
+      "org.kde.dolphin",
+      "",
+      "Dolphin"
+    ],
+    [
+      "zen-beta",
+      "󰈹",
+      "Zen-Browser"
+    ],
+    [
+      "kasts",
+      "󱝉",
+      "Kasts"
+    ],
+    [
+      "gjs",
+      "",
+      "Hyprpanel Settings"
+    ]
+  ],
   "theme.bar.buttons.radius": "0.9em",
   "bar.systray.ignore": [
     "CopyQ_copyq"
@@ -164,7 +203,7 @@
   "theme.bar.buttons.workspaces.numbered_active_highlight_border": "0.3em",
   "theme.bar.buttons.workspaces.occupied": "#f66151",
   "bar.volume.rightClick": "pavucontrol",
-  "bar.media.truncation_size": 35,
+  "bar.media.truncation_size": 31,
   "theme.osd.location": "top",
   "theme.osd.orientation": "horizontal",
   "theme.osd.margins": "29em 5px 0px 0px",
@@ -234,11 +273,21 @@
   "menus.transition": "crossfade",
   "menus.transitionTime": 0,
   "bar.workspaces.monitorSpecific": true,
-  "bar.workspaces.spacing": 0.5,
+  "bar.workspaces.spacing": 1,
   "bar.workspaces.applicationIconOncePerWorkspace": false,
   "bar.notifications.hideCountWhenZero": true,
   "bar.customModules.submap.showSubmapName": true,
   "bar.customModules.hyprsunset.label": false,
-  "bar.workspaces.showApplicationIcons": false,
-  "bar.media.show_label": true
+  "bar.workspaces.showApplicationIcons": true,
+  "bar.media.show_label": true,
+  "bar.workspaces.applicationIconMap": {
+    "[dD]iscord": "󰙯",
+    "class:wezterm$": "",
+    "zen-beta": "󰈹",
+    "title:YouTube": "",
+    "kitty": "󰄛",
+    "title:hyprpanel-settings": ""
+  },
+  "bar.workspaces.applicationIconEmptyWorkspace": "",
+  "bar.workspaces.reverse_scroll": false
 }

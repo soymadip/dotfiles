@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=MariaDB Workbench
+Comment=MariaDB Database Design, Administration, and Development Tool
+Exec=bash -c 'bash ~/.local/share/applications/scripts/guiSQL-setup.sh' %f
+Terminal=false
+Type=Application
+Icon=navicat-postgresql
+MimeType=application/vnd.mysql-workbench-model;application/sql;
+Categories=GTK;Database;Development;
+StartupWMClass=mysql-workbench-bin
+

@@ -23,7 +23,7 @@
   // Workbench settings
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Catppuccin Macchiato",
-  "workbench.preferredLightColorTheme": "Catppuccin Frappé",
+  "workbench.preferredLightColorTheme": "Catppuccin Macchiato",
   "search.defaultViewMode": "tree",
   "editor.semanticHighlighting.enabled": true,
 
@@ -120,13 +120,13 @@
   "code-runner.fileDirectoryAsCwd": true,
   "code-runner.executorMap": {
     "javascript": "prnt_cprmt; node $fileName; prnt_cftr",
-    "php": "prnt_cprmt; php $fileName; prnt_cftr",
+    "php": "prnt_cprmt; csmp $fileName; prnt_cftr",
     "python": "prnt_cprmt; python3 $fileName; prnt_cftr",
     "perl": "prnt_cprmt; perl $fileName; prnt_cftr",
     "ruby": "prnt_cprmt; ruby $fileName; prnt_cftr",
     "go": "prnt_cprmt; go run $fileName; prnt_cftr",
     "html": "handlr open $fileName",
-    "java": "prnt_cprmt; javac $fileName && java $fileNameWithoutExt; prnt_cftr",
+    "java": "prnt_cprmt; javac $fileName && java $fileNameWithoutExt && rm $fileName && prnt_cftr",
     "c": "prnt_cprmt; gcc $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled;  prnt_cftr",
     "cpp": "prnt_cprmt; g++ $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled;  prnt_cftr"
   },
@@ -226,6 +226,9 @@
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
 
   // Prettier settings
   "prettier.useTabs": false,
@@ -297,5 +300,10 @@
     "*.s3db": "${capture}.${extname}-*"
   },
   "yaml.disableDefaultProperties": true,
+  "mssql.enableRichExperiencesDoNotShowPrompt": true,
+  "fiveServer.php.executable": "/usr/bin/php",
+  "[php]": {
+    "editor.defaultFormatter": "rifi2k.format-html-in-php"
+  },
   "window.menuBarVisibility": "toggle"
 }

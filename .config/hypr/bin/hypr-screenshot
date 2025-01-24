@@ -11,5 +11,3 @@ date_time=$(date +"%y-%m-%d_%H-%M-%S")
 file_path="$dest_dir/SS_$date_time.png"
 
 grimblast --notify --freeze copysave area "$file_path"
-
-hypr-notify -n "Hypr-Screenshot" "Screenshot saved as $file_path"

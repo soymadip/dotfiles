@@ -43,6 +43,7 @@ pre_pckgs=(
 
 core_pckgs=(
 
+    "gnome-keyring"
     "pacman-contrib"
     "paru"
 

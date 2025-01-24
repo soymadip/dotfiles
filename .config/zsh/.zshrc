@@ -10,39 +10,7 @@
 
 fastfetch -c ~/.config/fastfetch/small.jsonc
 
-#eval "$(starship init zsh)"
-
-# Enable Powerlevel10k instant prompt. Should stay close to the top
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-# zinit and plugins directory
-ZINIT_HOME="${XDG_CONFIG_HOME:-${HOME}/.config}/zsh/zinit"
-
-
-# Install $ source zinit if not already
-if [ ! -d "$ZINIT_HOME" ]; then
-   echo -e "Installing zinit in ${ZINIT_HOME}" mkdir -p "$(dirname $ZINIT_HOME)0"
-   git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
-   echo "done\n Sourcing zinit"
-fi
-source "${ZINIT_HOME}/zinit.zsh"
-
-# Add in Powerlevel10k
-zinit ice depth=1; zinit light romkatv/powerlevel10k
-
-# Source prompt
-[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
-
-
-# Source core file
-source $ZDOTDIR/modules/init.zsh
-
-
-#----------------------------------------- PLUGINS & USER CONFIGS ---------------------------------
-
-
+source $ZDOTDIR/modules/Init.zsh
 
 
 #______________________Environment Varibles___________________________
@@ -146,6 +114,8 @@ alias fzf='fzf --preview "bat --color=always --style=numbers --line-range=:500 {
 alias lnr='ln_relative'
 alias papirus-folders='pprus_ch_fldr_clr'
 alias reboot='echo " reebooting......" && sleep 5 && reboot'
+alias csmp='sudo rm -rf /opt/lampp/htdocs/csmp && sudo cp ~/Documents/git/CSMP/  /opt/lampp/htdocs/csmp '
+alias xampp='sudo /opt/lampp/lampp '
 
 # git
 alias ghc="github_clone"

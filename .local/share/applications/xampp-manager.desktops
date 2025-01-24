@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=XAMPP Manager
+Comment=XAMPP server manager
+Exec=bash -C "/home/soymadip/.local/share/applications/scripts/xampp.sh"
+StartupWMClass=XAMPP
+Icon=xampp
+Terminal=false
+Type=Application
+Categories=Database;Network;RemoteAccess;WebDevelopment;

@@ -11,8 +11,8 @@
   <property name="last-toolbar-visible-buttons" type="string" value="0,0,0,1,0,1,1,1,0,0,0,1,1,1,1,1,1,0,0"/>
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="misc-directory-specific-settings" type="bool" value="true"/>
-  <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_100_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,124,124,117,84,237,73,111,1115,50,109,58,50,61"/>
+  <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_75_PERCENT"/>
+  <property name="last-details-view-column-widths" type="string" value="50,124,124,117,84,237,73,111,762,50,109,79,50,276"/>
   <property name="misc-thumbnail-draw-frames" type="bool" value="false"/>
   <property name="misc-text-beside-icons" type="bool" value="false"/>
   <property name="misc-change-window-icon" type="bool" value="true"/>
