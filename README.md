@@ -302,7 +302,7 @@ I try to stick to some basic rules for my binds:-
 
 <!-- ___________________LINKS___________________ -->
 
-[kskt]: https://github.com/soymadip/KireiSakura-Kit
+[kskt]: https://soymadip.github.io/KireiSakura-Kit
 [kdv]:  https://github.com/Keyitdev/sddm-astronaut-theme
 [hprpnll]: https://github.com/Jas-SinghFSU/HyprPanel
 [agsl]: https://github.com/Aylur/ags
