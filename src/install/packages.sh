@@ -132,7 +132,7 @@ cli_pckgs=(
     "yt-dlp"
     "lazygit"
     "ookla-speedtest-bin"
-    "yad"
+    "yad" # bash gtk popup
 )
 
 
