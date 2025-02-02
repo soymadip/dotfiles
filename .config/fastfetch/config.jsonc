@@ -18,7 +18,9 @@
         }
     },  
     "display": {
-        "separator": " ➜ "
+        "separator": " ➜ ",
+        "showErrors": true,
+        "brightColor": true,
     },
     "modules": [
         "break",

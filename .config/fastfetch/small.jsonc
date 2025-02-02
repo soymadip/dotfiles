@@ -22,6 +22,8 @@
         "color": {
             "separator": "blue",
         },
+        "showErrors": true,
+        "brightColor": true,
     },
 
     "modules": [
@@ -65,16 +67,16 @@
             "key": "  Terminal",
             "keyColor": "red"
         },
+        {
+            "type": "uptime",
+            "key": "󰅐  UpTime  ",
+            "keyColor": "cyan"
+        },
         // {
         //     "type": "packages",
         //     "key": "󰏖  Packages",
         //     "keyColor": "cyan"
         // },
-        {
-            "type": "uptime",
-            "key": "󰅐  UpTime  ",
-            "keyColor": "cyan"
-        }
-        ,"break"
+        "break"
     ]
 }
