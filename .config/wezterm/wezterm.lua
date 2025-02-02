@@ -11,8 +11,11 @@ conf = {
 	------------- window Apperance -----------------
 	window_decorations = "TITLE | RESIZE",
 	color_scheme = "Catppuccin Macchiato (Gogh)",
-	enable_scroll_bar = false, -- doesn't have option to show if needed.
+
+	-- scroll bar
+	enable_scroll_bar = false, -- doesn't have option to show only if needed.
 	scrollback_lines = 10000,
+
 	window_padding = {
 		left = 5,
 		right = 5,
@@ -100,12 +103,12 @@ conf = {
 	},
 }
 
---
---
---
---
--- --------------------------------------------------------------
--- return whole config
+--[[
+
+
+
+--------------------- END ------------------------------------
+--]]
 for key, value in pairs(conf) do
 	config[key] = value
 end
