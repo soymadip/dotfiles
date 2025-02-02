@@ -12,16 +12,12 @@
         //     "3": "38;2;21;159;121"
         // },
         "padding": {
-            "top":  2,
+            "top":  1,
             "left": 2
         }
-    },
-
+    },  
     "display": {
-        "separator": " ➜ ",
-        "color": {
-            "separator": "blue",
-        },
+        "separator": " ➜ "
     },
 
     "modules": [
@@ -37,42 +33,42 @@
         },  
         {
             "type": "custom",
-            "format": "━━━━━━━━━━━━━━━━━━━━━━",
+            "format": "──────────────────────────────",
             "outputColor": "black"
         },
         {
-            "type": "localip",
-            "key": "󰌢  Host    ",
-            "keyColor": "yellow"
+            "type": "host",
+            "key": "󰌢 Host    ",
+            "keyColor": "cyan"
         },
         {
             "type": "os",
-            "key": "  OS      ",
+            "key": " OS      ",
             "keyColor": "cyan"
         },
         {
             "type": "kernel",
-            "key": "  Kernel  ",
-            "keyColor": "green"
+            "key": " Kernel  ",
+            "keyColor": "cyan"
         },
         {
             "type": "shell",
-            "key": "  Shell   ",
-            "keyColor": "blue"
+            "key": " Shell   ",
+            "keyColor": "cyan"
         },
         {
             "type": "terminal",
-            "key": "  Terminal",
-            "keyColor": "red"
+            "key": " Terminal",
+            "keyColor": "cyan"
         },
         // {
         //     "type": "packages",
-        //     "key": "󰏖  Packages",
+        //     "key": "󰏖 Packages",
         //     "keyColor": "cyan"
         // },
         {
             "type": "uptime",
-            "key": "󰅐  UpTime  ",
+            "key": "󰅐 UpTime  ",
             "keyColor": "cyan"
         }
         ,"break"

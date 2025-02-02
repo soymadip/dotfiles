@@ -13,6 +13,7 @@ rice_pckgs=(
     "catppuccin-gtk-theme-macchiato"
 
     "fastfetch"
+    # "catnap" # fastfetch with small config
     "nwg-look"
     "qt5ct"
     "qt6ct"

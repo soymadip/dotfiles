@@ -33,7 +33,7 @@
         },
         {
             "type": "custom",
-            "format": "┌──────────────────────────────────────────────────────",
+            "format": "┌━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
             "outputColor": "yellow"
         },
         {
@@ -43,22 +43,22 @@
         },
         {
             "type": "kernel",
-            "key": "│ ├",
+            "key": "┃ ├",
             "keyColor": "yellow"
         },
         {
             "type": "packages",
-            "key": "│ ├󰏖",
+            "key": "┃ ├󰏖",
             "keyColor": "yellow"
         },
         {
             "type": "shell",
-            "key": "│ └",
+            "key": "┃ └",
             "keyColor": "yellow"
         },
         {
             "type": "custom",
-            "format": "|",
+            "format": "┃",
             "outputColor": "yellow"
         },
         {
@@ -68,37 +68,37 @@
         },
         {
             "type": "wm",
-            "key": "│ ├󱂬",
+            "key": "┃ ├󱂬",
             "keyColor": "blue"
         },
         {
             "type": "lm",
-            "key": "│ ├󰧨",
+            "key": "┃ ├󰧨",
             "keyColor": "blue"
         },
         {
             "type": "wmtheme",
-            "key": "│ ├󰉼",
+            "key": "┃ ├󰉼",
             "keyColor": "blue"
         },
         {
             "type": "icons",
-            "key": "│ ├󰀻",
+            "key": "┃ ├󰀻",
             "keyColor": "blue"
         },
         {
             "type": "terminal",
-            "key": "│ └",
+            "key": "┃ └",
             "keyColor": "blue"
         },
         // {
         //     "type": "wallpaper",
-        //     "key": "│ └󰸉",
+        //     "key": "┃ └󰸉",
         //     "keyColor": "blue"
         // },
         {
             "type": "custom",
-            "format": "|",
+            "format": "┃",
             "outputColor": "blue"
         },
         {
@@ -108,37 +108,37 @@
         },
         {
             "type": "cpu",
-            "key": "│ ├󰻠",
+            "key": "┃ ├󰻠",
             "keyColor": "green"
         },
         {
             "type": "gpu",
-            "key": "│ ├󰍛",
+            "key": "┃ ├󰍛",
             "keyColor": "green"
         },
         {
             "type": "disk",
-            "key": "│ ├",
+            "key": "┃ ├",
             "keyColor": "green"
         },
         {
             "type": "memory",
-            "key": "│ ├󰑭",
+            "key": "┃ ├󰑭",
             "keyColor": "green"
         },
         {
             "type": "swap",
-            "key": "│ ├󰓡",
+            "key": "┃ ├󰓡",
             "keyColor": "green"
         },
         {
             "type": "uptime",
-            "key": "│ ├󰅐",
+            "key": "┃ ├󰅐",
             "keyColor": "green"
         },
         {
             "type": "display",
-            "key": "│ └󰍹",
+            "key": "┃ └󰍹",
             "keyColor": "green"
         },
         // {
@@ -148,17 +148,17 @@
         // },
         // {
         //     "type": "player",
-        //     "key": "│ ├󰥠",
+        //     "key": "┃ ├󰥠",
         //     "keyColor": "cyan"
         // },
         // {
         //     "type": "media",
-        //     "key": "│ └󰝚",
+        //     "key": "┃ └󰝚",
         //     "keyColor": "cyan"
         // },
         {
             "type": "custom",
-            "format": "└──────────────────────────────────────────────────────",
+            "format": "└━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
             "outputColor": "green"
         },
         "break"
