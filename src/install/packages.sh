@@ -47,6 +47,7 @@ core_pckgs=(
     "gnome-keyring"
     "pacman-contrib"
     "paru"
+    "pacseek" # tui for pacman
 
     "wl-clipboard"
 

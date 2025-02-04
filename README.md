@@ -175,7 +175,9 @@ I try to stick to some basic rules for my binds:-
 
 <br>
 
-### Essentials
+
+<details>
+  <summary>1. Essential Keybinds</summary>
 
 | Keybind                                             | Action                                          |
 | :-------------------------------------------------- | :---------------------------------------------- |
@@ -191,7 +193,12 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>Backspace</kbd>             | Launch power menu                               |
 | <kbd>Super</kbd> + <kbd>Del</kbd>                   | Kill Hyprland session                           |
 
-### General Window functions
+<br><hr>
+</details>
+
+
+<details>
+<summary>2. General Window functions</summary>
 
 | Keys                                               | Action                                         |
 | :------------------------------------------------- | :--------------------------------------------- |
@@ -201,7 +208,11 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>G</kbd>                    | Toggle the window between focus and group      |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> | Toggle pin on focused window\*                 |
 
-### Shift Window focus
+<br><hr>
+</details>
+
+<details>
+<summary>3. Shift Window focus</summary>
 
 | Keys                                              | Action                                  |
 | :------------------------------------------------ | :-------------------------------------- |
@@ -212,7 +223,11 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>J</kbd> | Move between grouped windows backward\* |
 | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>K</kbd> | Move between grouped windows forward\*  |
 
-### Move windows
+<br><hr>
+</details>
+
+<details>
+<summary>4. Move windows</summary>
 
 | Keys                                                 | Action                                                  |
 | :--------------------------------------------------- | :------------------------------------------------------ |
@@ -226,7 +241,11 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>LeftClick (Hold)</kbd>       | Move focused window                                     |
 | <kbd>Super</kbd> + <kbd>RightClick (Hold)</kbd>      | Resize focused window                                   |
 
-### Change Window Size
+<br><hr>
+</details>
+
+<details>
+<summary>5. Change Window Size</summary>
 
 | Keys                                             | Action                           |
 | :----------------------------------------------- | :------------------------------- |
@@ -235,7 +254,11 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>alt</kbd> + <kbd>H</kbd> | Increase size of **left** side   |
 | <kbd>Super</kbd> + <kbd>alt</kbd> + <kbd>L</kbd> | Increase size of **right** side  |
 
-### Workspace
+<br><hr>
+</details>
+
+<details>
+<summary>6. Workspace</summary>
 
 | Keys                                      | Action                                                        |
 | :---------------------------------------- | :------------------------------------------------------------ |
@@ -248,7 +271,11 @@ I try to stick to some basic rules for my binds:-
 <!-- | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd><kbd>→</kbd> | Switch workspaces to a relative workspace | -->
 <!-- | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>↓</kbd>             | Move to the first empty workspace         | -->
 
-### Audio & Brightess
+<br><hr>
+</details>
+
+<details>
+<summary>7. Audio & Brightess</summary>
 
 | Keys                                                                             | Action                      |
 | :------------------------------------------------------------------------------- | :-------------------------- |
@@ -261,7 +288,11 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>F9</kbd><br><kbd>Brightenss Down</kbd>                   | Decrease monitor Brightness |
 | <kbd>Super</kbd> + <kbd>F10</kbd><br><kbd>Brightenss Up</kbd>                    | Increase monitor Brightness |
 
-### Screenshot
+<br><hr>
+</details>
+
+<details>
+<summary>8. Screenshot</summary>
 
 | Keys                                             | Action                                            |
 | :----------------------------------------------- | :------------------------------------------------ |
@@ -270,7 +301,12 @@ I try to stick to some basic rules for my binds:-
 | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd> | All Monitors screenshot capture                   |
 <!-- | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>P</kbd> | Partial screenshot capture | -->
 
-<!-- ### Misc:- -->
+<br><hr>
+</details>
+
+<!-- <details> -->
+<!-- <summary>9. Misc:-</summary> -->
+
 <!-- | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd> | Disable hypr effects for gamemode | -->
 <!-- | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>→</kbd><kbd>←</kbd> | Cycle wallpaper | -->
 <!-- | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> | Launch theme select menu (rofi) | -->
@@ -280,6 +316,10 @@ I try to stick to some basic rules for my binds:-
 <!-- | <kbd>Alt</kbd> + <kbd>Tab</kbd> |  | -->
 <!-- | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd> | Move focused window (tiled/floating) around the current workspace | -->
 <!-- | <kbd>Super</kbd> + <kbd>J</kbd> | Toggle focused window split | -->
+
+<!-- <br><hr>
+</details> -->
+
 
 </br></br>
 

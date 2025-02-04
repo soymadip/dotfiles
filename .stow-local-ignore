@@ -3,6 +3,7 @@ README.md
 ^/COPYING
 /.git 
 /.gitignore
+/.gitmodules
 /.prettierignore
 /.directory
 /install

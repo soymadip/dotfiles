@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+#DEPENDENCY=jq
+
 # Path to the extensions.json file
 EXTENSIONS_FILE="$HOME/.vscode/extensions/extensions.json"
 
