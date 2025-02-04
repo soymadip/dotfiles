@@ -9,10 +9,16 @@ local WA = wezterm.action
 
 conf = {
 	------------- window Apperance -----------------
+	max_fps = 144,
 	window_decorations = "TITLE | RESIZE",
 	color_scheme = "Catppuccin Macchiato (Gogh)",
 
-	-- scroll bar
+	window_close_confirmation = "AlwaysPrompt",
+	skip_close_confirmation_for_processes_named = {
+		"zsh",
+		"sleep",
+	},
+
 	enable_scroll_bar = false, -- doesn't have option to show only if needed.
 	scrollback_lines = 10000,
 
@@ -104,11 +110,14 @@ conf = {
 }
 
 --[[
-
-
-
 --------------------- END ------------------------------------
---]]
+
+
+
+
+
+
+------ return the whole config ---------]]
 for key, value in pairs(conf) do
 	config[key] = value
 end
