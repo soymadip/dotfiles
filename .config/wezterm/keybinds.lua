@@ -52,6 +52,30 @@ return {
 			key = "k",
 		},
 		{
+			-- Increase Pane Size
+			action = WA.AdjustPaneSize({ "Right", 5 }),
+			mods = "CTRL|SHIFT|ALT",
+			key = "h",
+		},
+		{
+			-- Decrease Pane Size
+			action = WA.AdjustPaneSize({ "Left", 5 }),
+			mods = "CTRL|SHIFT|ALT",
+			key = "l",
+		},
+		{
+			-- Increase Pane Height
+			action = WA.AdjustPaneSize({ "Down", 5 }),
+			mods = "CTRL|SHIFT|ALT",
+			key = "j",
+		},
+		{
+			-- Decrease Pane Height
+			action = WA.AdjustPaneSize({ "Up", 5 }),
+			mods = "CTRL|SHIFT",
+			key = "k",
+		},
+		{
 			-- Full Screen Mode
 			action = WA.ToggleFullScreen,
 			mods = "",
@@ -63,5 +87,12 @@ return {
 			mods = "CTRL|SHIFT",
 			key = "Enter",
 		},
-	},
+		--[[ 		{
+			action = WA.SpawnCommandInNewTab {
+				args = { "btm" }
+			},
+			mods = "CTRL|SHIFT",
+			key = "n",
+		}, ]]
+	}
 }

@@ -28,7 +28,7 @@ local conf = {
 		top = 5,
 		bottom = 5,
 	},
-	window_background_opacity = 1.0,
+	window_background_opacity = 0.92,
 
 	---------------- font settings ---------------
 	font = wezterm.font("JetBrainsMono Nerd Font"),
@@ -52,8 +52,8 @@ local conf = {
 
 ------ return the whole config ---------]]
 
-for _, table in ipairs({ conf, keybinds }) do
-	for key, value in pairs(table) do
+for _, tbl in ipairs({ conf, keybinds }) do
+	for key, value in pairs(tbl) do
 		config[key] = value
 	end
 end

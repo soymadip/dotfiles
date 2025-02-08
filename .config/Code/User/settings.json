@@ -126,7 +126,7 @@
     "ruby": "prnt_cprmt; ruby $fileName; prnt_cftr",
     "go": "prnt_cprmt; go run $fileName; prnt_cftr",
     "html": "handlr open $fileName",
-    "java": "prnt_cprmt; javac $fileName && java $fileNameWithoutExt && rm $fileName && prnt_cftr",
+    "java": "prnt_cprmt; javac $fileName && java $fileNameWithoutExt && rm $fileNameWithoutExt.class && prnt_cftr",
     "c": "prnt_cprmt; gcc $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled;  prnt_cftr",
     "cpp": "prnt_cprmt; g++ $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled;  prnt_cftr"
   },
@@ -305,5 +305,9 @@
   "[php]": {
     "editor.defaultFormatter": "rifi2k.format-html-in-php"
   },
-  "window.menuBarVisibility": "toggle"
+  "window.menuBarVisibility": "toggle",
+  "editor.minimap.enabled": false,
+  "todohighlight.isCaseSensitive": false,
+  "todohighlight.enableDiagnostics": true,
+  "notebook.defaultFormatter": "esbenp.prettier-vscode"
 }

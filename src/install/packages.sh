@@ -135,6 +135,8 @@ cli_pckgs=(
     "lazygit"
     "ookla-speedtest-bin"
     "yad" # bash gtk popup
+
+    "smassh"
 )
 
 
