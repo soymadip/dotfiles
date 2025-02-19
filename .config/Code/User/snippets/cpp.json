@@ -1,5 +1,5 @@
 {
-	"Boilerplate-Cpp": {
+	"Boilerplate": {
 		"prefix": "boiler",
 		"body": [
 			"#include <iostream>",
@@ -15,7 +15,7 @@
 	},
 
 
-	"Class Template-cpp": {
+	"Class Template": {
 		"prefix": "cppclass",
 		"body": [
 			"class ${1:ClassName} {",

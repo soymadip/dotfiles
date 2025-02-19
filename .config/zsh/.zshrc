@@ -22,11 +22,11 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export TERMINAL=/usr/bin/kitty
 
 export EDITOR=$(command -v nvim &> /dev/null && echo nvim || echo nano)
-export VISUAL=$(command -v codium &> /dev/null && echo codium || command -v code &> /dev/null && echo code || echo kate)
+export VISUAL=$(command -v codium &> /dev/null && echo codium || command -v code &> /dev/null && echo code || echo pluma)
 
 #export STARSHIP_CONFIG=$XDG_CONFIG_HOME/starship/starship.toml
 export STARSHIP_CACHE=$XDG_CONFIG_HOME/starship/starship.log
-export GRIMBLAST_EDITOR=gwenview
+export GRIMBLAST_EDITOR=nomacs
 export FZF_DEFAULT_COMMAND='fd --hidden --no-ignore --exclude .git'
 
 export AUTO_NOTIFY_EXPIRE_TIME=5000
@@ -40,9 +40,7 @@ import-mod --all
 
 eval_fzf
 eval "$(zoxide init zsh --cmd cdz)"
-# eval "$(atuin init zsh)"
 
-bat cache --build &>/dev/null
 
 
 #_____________________________Plugins____________________________________

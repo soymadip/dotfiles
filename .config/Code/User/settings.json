@@ -1,313 +1,46 @@
 {
-  // Update settings
-  "update.mode": "none",
-  "update.showReleaseNotes": true,
-
-  // Telemetry settings
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
-  "telemetry.telemetryLevel": "off",
-
-  // Files settings
-  "files.autoSave": "onFocusChange",
-  "files.autoSaveDelay": 500,
-  "notebook.formatOnSave.enabled": true,
-  "files.autoGuessEncoding": true,
-
-  // Security settings
-  "security.workspace.trust.untrustedFiles": "open",
-
-  // Settings Sync
-  "settingsSync.keybindingsPerPlatform": false,
-
-  // Workbench settings
-  "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Catppuccin Macchiato",
-  "workbench.preferredLightColorTheme": "Catppuccin Macchiato",
-  "search.defaultViewMode": "tree",
-  "editor.semanticHighlighting.enabled": true,
-
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "catppuccin-perfect-latte",
-  "workbench.colorTheme": "Catppuccin Macchiato",
-  "catppuccin.accentColor": "maroon",
-  "catppuccin.workbenchMode": "flat",
-  "catppuccin.bracketMode": "dimmed",
-  "alt-catppuccin.syntaxMode": "default",
-  "catppuccin-noctis-icons.hidesExplorerArrows": false,
-  "workbench.startupEditor": "none",
-  "workbench.list.smoothScrolling": true,
-  "workbench.panel.defaultLocation": "right",
-  "workbench.quickOpen.preserveInput": true,
-  "workbench.remoteIndicator.showExtensionRecommendations": false,
-  "workbench.commandPalette.preserveInput": true,
-  "workbench.editor.autoLockGroups": {
-    "mainThreadWebview-markdown.preview": true
-  },
-  "workbench.editor.sharedViewState": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.layoutControl.enabled": false,
-
-  "window.commandCenter": true,
-  "workbench.sideBar.location": "right",
-  "window.density.editorTabHeight": "compact",
-  "window.restoreWindows": "folders",
-
-  "explorer.fileNesting.enabled": true,
-  "explorer.incrementalNaming": "smart",
-  "extensions.closeExtensionDetailsOnViewChange": true,
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
-  },
-
-  // Zen Mode
-  "zenMode.centerLayout": false,
-  "zenMode.hideLineNumbers": false,
-  "zenMode.hideStatusBar": false,
-
-  // Editor
-  "editor.fontSize": 14.1,
-  "editor.wordWrap": "off",
-  "editor.indentSize": "tabSize",
-
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "'JetBrainsMonoNL NF','FiraCode Nerd Font Ret','Droid Sans Mono', 'monospace', monospace",
-
-  "editor.inlineSuggest.enabled": true,
-  "editor.suggest.preview": true,
-  "editor.inlineSuggest.fontFamily": "'FiraCode Nerd Font Ret'",
-  "editor.statusBar.fontFamily": "'JetBrainsMonoNL NF','FiraCode Nerd Font Ret'",
-  "editor.codeLensFontFamily": "'FiraCode Nerd Font Ret'",
-
-  "editor.suggest.shareSuggestSelections": true,
-  "editor.acceptSuggestionOnCommitCharacter": true,
-  "editor.minimap.showSlider": "mouseover",
-  "editor.minimap.size": "fill",
-
-  "editor.stickyScroll.enabled": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.renderWhitespace": "trailing",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.autoClosingComments": "always",
-  "editor.tabCompletion": "onlySnippets",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.padding.top": 5,
-  "editor.renderLineHighlightOnlyWhenFocus": true,
-  "editor.scrollbar.horizontalScrollbarSize": 6,
-  "editor.scrollbar.ignoreHorizontalScrollbarInContentHeight": true,
-  "editor.scrollbar.verticalScrollbarSize": 6,
-  "editor.definitionLinkOpensInPeek": true,
-  "editor.smoothScrolling": true,
-  "editor.minimap.autohide": true,
-  "editor.tabSize": 2,
-
-  // SCM
-  "scm.alwaysShowActions": true,
-  "scm.defaultViewMode": "tree",
-
-  // Code Runner
-  "code-runner.saveFileBeforeRun": true,
-  "code-runner.runInTerminal": true,
-  "code-runner.preserveFocus": false,
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.languageIdToFileExtensionMap": {
-    "bat": ".bat",
-    "powershell": ".ps1",
-    "typescript": ".ts"
-  },
-  "code-runner.enableAppInsights": false,
-  "code-runner.fileDirectoryAsCwd": true,
-  "code-runner.executorMap": {
-    "javascript": "prnt_cprmt; node $fileName; prnt_cftr",
-    "php": "prnt_cprmt; csmp $fileName; prnt_cftr",
-    "python": "prnt_cprmt; python3 $fileName; prnt_cftr",
-    "perl": "prnt_cprmt; perl $fileName; prnt_cftr",
-    "ruby": "prnt_cprmt; ruby $fileName; prnt_cftr",
-    "go": "prnt_cprmt; go run $fileName; prnt_cftr",
-    "html": "handlr open $fileName",
-    "java": "prnt_cprmt; javac $fileName && java $fileNameWithoutExt && rm $fileNameWithoutExt.class && prnt_cftr",
-    "c": "prnt_cprmt; gcc $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled;  prnt_cftr",
-    "cpp": "prnt_cprmt; g++ $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled;  prnt_cftr"
-  },
-
-  // Terminal
-  "terminal.external.linuxExec": "kitty",
-  "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.defaultProfile.windows": "git-bash",
-  "terminal.integrated.defaultLocation": "view",
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.enableImages": true,
-  "terminal.integrated.focusAfterRun": "terminal",
-  "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.confirmOnExit": "hasChildProcesses",
-  "terminal.integrated.minimumContrastRatio": 1,
-
-  // Auto Close Tag
-  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
-  "auto-close-tag.SublimeText3Mode": true,
-
-  // C/C++
-  "C_Cpp.autocompleteAddParentheses": true,
-
-  // GitHub Copilot
-  "github.copilot.chat.scopeSelection": true,
-  "github.copilot.chat.terminalChatLocation": "quickChat",
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false,
-    "c": false
-  },
-  "chat.editing.alwaysSaveWithGeneratedChanges": true,
-
-  // CSS
-  "css.lint.boxModel": "warning",
-  "css.lint.duplicateProperties": "warning",
-  "css.format.spaceAroundSelectorSeparator": true,
-
-  // Emmet
-  "emmet.triggerExpansionOnTab": true,
-
-  // Git
-  "git.autofetch": true,
-  "git.fetchOnPull": true,
-  "git.mergeEditor": true,
-  "git.openRepositoryInParentFolders": "always",
-  "git.pullBeforeCheckout": true,
-  "git.showPushSuccessNotification": true,
-  "git.enableSmartCommit": true,
-  "git.postCommitCommand": "sync",
-  "git.confirmSync": false,
-  "git.autofetchPeriod": 120,
-  "git.closeDiffOnOperation": true,
-  "git.followTagsWhenSync": true,
-  "git.supportCancellation": true,
-  "git.terminalGitEditor": true,
-  "diffEditor.maxComputationTime": 0,
-  "diffEditor.codeLens": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "merge-conflict.autoNavigateNextConflict.enabled": true,
-
-  // Import Cost
-  "importCost.fontStyle": "oblique",
-
-  // JSON
-  "json.format.keepLines": true,
-
-  // Media Preview
-  "mediaPreview.video.loop": true,
-
-  // Python
-  "python.analysis.autoFormatStrings": true,
-  "python.terminal.focusAfterLaunch": true,
-  "python.analysis.autoImportCompletions": true,
-  "python.analysis.completeFunctionParens": true,
-  "python.analysis.diagnosticMode": "workspace",
-
-  // Individual formatters
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[snippets]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml"
-  },
-  "[lua]": {
-    "editor.defaultFormatter": "sumneko.lua"
-  },
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-
-  // Prettier settings
-  "prettier.useTabs": false,
-
-  // YAML
-  "yaml.schemas": {
-    "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
-  },
-  "yaml.customTags": [
-    "!ENV scalar",
-    "!ENV sequence",
-    "!relative scalar",
-    "tag:yaml.org,2002:python/name:material.extensions.emoji.to_svg",
-    "tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji",
-    "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
-  ],
-
-  // evenBetterToml
-  "evenBetterToml.formatter.trailingNewline": true,
-  "evenBetterToml.schema.links": true,
-
-  // Neovim settings
-  "vscode-neovim.ctrlKeysForNormalMode": [
-    "a",
-    "b",
-    "c",
-    "d",
-    "e",
-    "h",
-    "i",
-    "j",
-    "k",
-    "l",
-    "m",
-    "o",
-    "r",
-    "t",
-    "u",
-    "v",
-    "w",
-    "x",
-    "y",
-    "z",
-    "/",
-    "]",
-    "right",
-    "left",
-    "up",
-    "down",
-    "backspace",
-    "delete"
-  ],
-  "vscode-neovim.neovimWidth": 450,
-  "vscode-neovim.statusLineSeparator": " | ",
-
-  "explorer.confirmPasteNative": false,
-  "explorer.fileNesting.patterns": {
-    "*.ts": "${capture}.js",
-    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-    "*.jsx": "${capture}.js",
-    "*.tsx": "${capture}.ts",
-    "tsconfig.json": "tsconfig.*.json",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
-    "*.sqlite": "${capture}.${extname}-*",
-    "*.db": "${capture}.${extname}-*",
-    "*.sqlite3": "${capture}.${extname}-*",
-    "*.db3": "${capture}.${extname}-*",
-    "*.sdb": "${capture}.${extname}-*",
-    "*.s3db": "${capture}.${extname}-*"
-  },
-  "yaml.disableDefaultProperties": true,
-  "mssql.enableRichExperiencesDoNotShowPrompt": true,
-  "fiveServer.php.executable": "/usr/bin/php",
-  "[php]": {
-    "editor.defaultFormatter": "rifi2k.format-html-in-php"
-  },
-  "window.menuBarVisibility": "toggle",
-  "editor.minimap.enabled": false,
-  "todohighlight.isCaseSensitive": false,
-  "todohighlight.enableDiagnostics": true,
-  "notebook.defaultFormatter": "esbenp.prettier-vscode"
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.sideBar.location": "right",
+    "redhat.telemetry.enabled": false,
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "catppuccin.accentColor": "maroon",
+    "catppuccin.workbenchMode": "flat",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font','Droid Sans Mono', 'monospace', monospace",
+    "files.autoSave": "onFocusChange",
+    "editor.renderWhitespace": "trailing",
+    "editor.inlayHints.padding": true,
+    "editor.inlineCompletionsAccessibilityVerbose": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.enableAppInsights": false,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.executorMap": {
+        "javascript": "code-run 'node $fileName'",
+        "php":        "code-run 'csmp $fileName'",
+        "python":     "code-run 'python3 $fileName'",
+        "perl":       "code-run 'perl $fileName'",
+        "ruby":       "code-run 'ruby $fileName'",
+        "go":         "code-run 'go run $fileName'",
+        "html":       "handlr open $fileName",
+        "java":       "code-run 'javac $fileName && java $fileNameWithoutExt && rm $fileNameWithoutExt.class'",
+        "c":          "code-run 'gcc $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled'",
+        "cpp":        "code-run 'g++ $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled'"
+    },
+    "code-runner.preserveFocus": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.openRepositoryInParentFolders": "always",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeActions.triggerOnFocusChange": true,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.showTabs": "multiple",
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
 }

@@ -24,8 +24,8 @@ allowMeteredStreaming=true
 syncDevice=kasts-LAPTOP-SD
 syncDeviceName=Kasts on LAPTOP-SD
 syncEnabled=true
-syncHostname=https://soymadip.koyeb.app
-syncUsername=soymadip
+syncHostname=https://gpodder.koyeb.app
+syncUsername=opodder
 
 [UiSettings]
 ColorScheme=Catppuccin Macchiato Maroon

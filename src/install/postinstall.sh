@@ -34,11 +34,6 @@ install_pkgs() {
 
 
 # \\\\\\\\\\\\\\\\\\ Triggering Functions ///////////////////////
-
-export PROJECT_NAME="Dotfiles"
-export LOG_FILE="init.log"
-export CACHE_DIR="$HOME/.cache/setup"
-
 eval "$(kireisakura --init )"
 
 

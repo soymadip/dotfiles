@@ -7,5 +7,24 @@
 			"        ${5:pass}"
 		],
 		"description": "Python for loop with a condition"
-	}
+	},
+  "Function Template ": {
+    "prefix": "function",
+    "body": [
+      "",
+      "#",
+      "#",
+      "#---------------------------------------------------------------------------------",
+      "# NAME:  ${1:Function-Name}",
+      "# DESC:  ${2:Function-Description.}",
+      "# USAGE: ${1:Function-Name} ${3:<arguments>}",
+      "# ${4:FLAGS:}",
+      "#${5:      -1st,--full1st  flag desc}.",
+      "#---------------------------------------------------------------------------------",
+      "def ${1:Function-Name}():",
+      "",
+      "$0",
+      "}",
+    ]
+  }
 }

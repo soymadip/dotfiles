@@ -35,7 +35,7 @@ prnt_cftr() {
 
 
 
-dcrt_cmd() {
+code-run() {
   local command="$1"
 
   if [ -z "$command" ]; then
@@ -49,9 +49,9 @@ dcrt_cmd() {
   NC='\033[0m' # No Color
 
   clear -x
+  echo "\n${YELLOW}Command${NC}: '$command'"
   echo -e "\n${YELLOW}============= OUTPUT ==============${NC}\n"
 
-  echo "command: $command"
   eval "$command"
   exit_status=$?
 
