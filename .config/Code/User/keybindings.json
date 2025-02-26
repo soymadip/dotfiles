@@ -140,5 +140,10 @@
     "key": "ctrl+`",
     "command": "-workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
+  },
+  {
+    "key": "/",
+    "command": "editor.action.startFindReplaceAction",
+    "when": "editorTextFocus && neovim.mode == 'normal'"
   }
 ]

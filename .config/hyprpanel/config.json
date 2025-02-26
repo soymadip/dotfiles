@@ -283,7 +283,7 @@
   "bar.workspaces.applicationIconMap": {
     "[dD]iscord": "󰙯",
     "class:wezterm$": "",
-    "zen-beta": "󰈹",
+    "zen": "󰈹",
     "title:YouTube": "",
     "kitty": "󰄛",
     "title:hyprpanel-settings": ""

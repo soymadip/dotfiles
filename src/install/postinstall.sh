@@ -44,8 +44,8 @@ kimport install_additional-repo  install_all_packages restore_dotfiles change_pa
 
 # Change shell to zsh
 if ! change_shell; then
-  log "please reboot system & run this script again..." inform
-  log "rebooting in 3 seconds..." inform && sleep 3 && reboot
+    log "please reboot system & run this script again..." inform
+    log "rebooting in 3 seconds..." inform && sleep 3 && reboot
 fi
 
 

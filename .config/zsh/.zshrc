@@ -94,8 +94,8 @@ setopt hist_find_no_dups
 #____________________________Aliases_______________________________________
 alias :q='exit'
 alias sudo='sudo ' # expand aliases with sudo
-alias ls='eza -a --sort=name --group-directories-first --icons=always --hyperlink'
-alias tree='lsd --tree --depth 3'
+alias ls='eza -a --sort=name --group-directories-first --icons=auto --hyperlink'
+alias tree='eza --tree -L 4 --group-directories-first --icons=auto  --hyperlink'
 alias cp='cp -ri'
 alias cd='cd_ls'
 alias mkdir='mkdir -p'

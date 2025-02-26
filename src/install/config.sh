@@ -1,7 +1,11 @@
 
-PROJECT_NAME="Dotfiles"
 
-LOG_FILE="init.log"
+# Project Info
+PROJECT_NAME="MyProject"
+CACHE_DIR="$HOME/.cache/myproject"
+LOG_FILE="$CACHE_DIR/myproject.log"
 
-CACHE_DIR="$HOME/.cache/setup"
+# Behavior Flags
+ENABLE_LOGGING=true
+VERBOSE_MODE=false
 

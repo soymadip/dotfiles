@@ -2,3 +2,4 @@
 # These are global
 PRACTICE*.*
 __pycache__
+*.venv

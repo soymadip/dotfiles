@@ -7,9 +7,9 @@
     "workbench.colorTheme": "Catppuccin Macchiato",
     "catppuccin.accentColor": "maroon",
     "catppuccin.workbenchMode": "flat",
-    "window.menuBarVisibility": "toggle",
     "editor.fontFamily": "'JetBrainsMono Nerd Font','Droid Sans Mono', 'monospace', monospace",
-    "files.autoSave": "onFocusChange",
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
     "editor.renderWhitespace": "trailing",
     "editor.inlayHints.padding": true,
     "editor.inlineCompletionsAccessibilityVerbose": true,
@@ -38,9 +38,54 @@
     "editor.codeActions.triggerOnFocusChange": true,
     "editor.minimap.enabled": false,
     "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.showTabs": "multiple",
     "[yaml]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.renderIndentGuides": "onHover",
+
+    "workbench.tree.decorations.badges": false,
+    "workbench.tree.indent": 17,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "custom-ui-style.font.sansSerif": "JetBrainsMono Nerd Font",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.cursorSmoothCaretAnimation": "on",
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.2)",
+        "rgba(127,255,127,0.2)",
+        "rgba(255,127,255,0.2)",
+        "rgba(79,236,236,0.2)"
+    ],
+    "vscode-neovim.compositeKeys": {
+        "jk": {
+            "command": "vscode-neovim.escape",
+        },
+    },
+    "editor.renderLineHighlight": "gutter",
+
+    "editor.scrollbar.verticalScrollbarSize": 6,
+    "editor.scrollbar.horizontalScrollbarSize": 6,
+    "editor.overviewRulerBorder": false,
+
+    "breadcrumbs.enabled":false, 
+    "files.insertFinalNewline": true,
+    
+    "extensions.ignoreRecommendations": true,
+    
+    "terminal.integrated.tabs.enabled": false,
+    "window.titleBarStyle": "native",
+
+
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "window.menuBarVisibility": "toggle",
+    "yaml.trace.server": "messages",
+    "editor.snippetSuggestions": "top"
 }
