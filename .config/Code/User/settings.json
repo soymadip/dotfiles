@@ -1,91 +1,100 @@
 {
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
-    },
-    "workbench.sideBar.location": "right",
-    "redhat.telemetry.enabled": false,
-    "workbench.colorTheme": "Catppuccin Macchiato",
-    "catppuccin.accentColor": "maroon",
-    "catppuccin.workbenchMode": "flat",
-    "editor.fontFamily": "'JetBrainsMono Nerd Font','Droid Sans Mono', 'monospace', monospace",
-    "editor.fontLigatures": true,
-    "files.autoSave": "afterDelay",
-    "editor.renderWhitespace": "trailing",
-    "editor.inlayHints.padding": true,
-    "editor.inlineCompletionsAccessibilityVerbose": true,
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.enableAppInsights": false,
-    "code-runner.fileDirectoryAsCwd": true,
-    "code-runner.runInTerminal": true,
-    "code-runner.saveAllFilesBeforeRun": true,
-    "code-runner.executorMap": {
-        "javascript": "code-run 'node $fileName'",
-        "php":        "code-run 'csmp $fileName'",
-        "python":     "code-run 'python3 $fileName'",
-        "perl":       "code-run 'perl $fileName'",
-        "ruby":       "code-run 'ruby $fileName'",
-        "go":         "code-run 'go run $fileName'",
-        "html":       "handlr open $fileName",
-        "java":       "code-run 'javac $fileName && java $fileNameWithoutExt && rm $fileNameWithoutExt.class'",
-        "c":          "code-run 'gcc $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled'",
-        "cpp":        "code-run 'g++ $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled'"
-    },
-    "code-runner.preserveFocus": false,
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "git.openRepositoryInParentFolders": "always",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.codeActions.triggerOnFocusChange": true,
-    "editor.minimap.enabled": false,
-    "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "[yaml]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "material-icon-theme.hidesExplorerArrows": true,
-    "workbench.tree.renderIndentGuides": "onHover",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.sideBar.location": "right",
+  "redhat.telemetry.enabled": false,
+  "catppuccin.accentColor": "maroon",
+  "catppuccin.workbenchMode": "flat",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font','Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "files.autoSave": "afterDelay",
+  "editor.renderWhitespace": "trailing",
+  "editor.inlayHints.padding": true,
+  "editor.inlineCompletionsAccessibilityVerbose": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.enableAppInsights": false,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.executorMap": {
+    "javascript": "code-run 'node $fileName'",
+    "php": "code-run 'csmp $fileName'",
+    "python": "code-run 'python3 $fileName'",
+    "perl": "code-run 'perl $fileName'",
+    "ruby": "code-run 'ruby $fileName'",
+    "go": "code-run 'go run $fileName'",
+    "html": "xdg-open $fullFileName",
+    "java": "code-run 'javac $fileName && java $fileNameWithoutExt && rm $fileNameWithoutExt.class'",
+    "c": "code-run 'gcc $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled'",
+    "cpp": "code-run 'g++ $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled'"
+  },
+  "code-runner.preserveFocus": false,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "always",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeActions.triggerOnFocusChange": true,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "onHover",
 
-    "workbench.tree.decorations.badges": false,
-    "workbench.tree.indent": 17,
-    "explorer.compactFolders": false,
-    "explorer.confirmDragAndDrop": false,
-    "custom-ui-style.font.sansSerif": "JetBrainsMono Nerd Font",
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.cursorSmoothCaretAnimation": "on",
-    "indentRainbow.indicatorStyle": "light",
-    "indentRainbow.colors": [
-        "rgba(255,255,64,0.2)",
-        "rgba(127,255,127,0.2)",
-        "rgba(255,127,255,0.2)",
-        "rgba(79,236,236,0.2)"
-    ],
-    "vscode-neovim.compositeKeys": {
-        "jk": {
-            "command": "vscode-neovim.escape",
-        },
-    },
-    "editor.renderLineHighlight": "gutter",
+  "workbench.tree.decorations.badges": false,
+  "workbench.tree.indent": 17,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "custom-ui-style.font.sansSerif": "JetBrainsMono Nerd Font",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.2)",
+    "rgba(127,255,127,0.2)",
+    "rgba(255,127,255,0.2)",
+    "rgba(79,236,236,0.2)"
+  ],
+  "vscode-neovim.compositeKeys": {
+    "jk": {
+      "command": "vscode-neovim.escape"
+    }
+  },
+  "editor.renderLineHighlight": "gutter",
 
-    "editor.scrollbar.verticalScrollbarSize": 6,
-    "editor.scrollbar.horizontalScrollbarSize": 6,
-    "editor.overviewRulerBorder": false,
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.scrollbar.horizontalScrollbarSize": 6,
+  "editor.overviewRulerBorder": false,
 
-    "breadcrumbs.enabled":false, 
-    "files.insertFinalNewline": true,
-    
-    "extensions.ignoreRecommendations": true,
-    
-    "terminal.integrated.tabs.enabled": false,
-    "window.titleBarStyle": "native",
+  "breadcrumbs.enabled": false,
+  "files.insertFinalNewline": true,
 
+  "extensions.ignoreRecommendations": true,
+  "window.titleBarStyle": "native",
 
-    "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
-    "window.menuBarVisibility": "toggle",
-    "yaml.trace.server": "messages",
-    "editor.snippetSuggestions": "top"
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "yaml.trace.server": "messages",
+  "editor.snippetSuggestions": "top",
+  "git.postCommitCommand": "sync",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 14,
+  "window.customTitleBarVisibility": "never",
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "window.menuBarVisibility": "toggle",
 }

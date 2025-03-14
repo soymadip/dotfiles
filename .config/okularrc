@@ -26,7 +26,6 @@ ShowSidebar=true
 1920x1080 screen: YPosition=189
 MenuBar=Disabled
 RestorePositionForNextInstance=false
-ToolBarsMovable=Disabled
 VGA-1=VGA-1
 
 [MainWindow][Toolbar annotationToolBar]
@@ -39,26 +38,26 @@ IconSize=16
 ShowTabWarning=true
 
 [Recent Files]
-File1[$e]=$HOME/MF/obsidian/.trash/index 4.md
-File10[$e]=$HOME/Documents/git/CSMP/README.md
-File2[$e]=$HOME/Downloads/APznzaa4tdVNfsmjydMpJ0NvVJ1Ju2PAHLxAcZBgZUK8nbgQlZik6gCprzENms22oG63gxo6wY9d0lVaJk3uh2YmIc5jd0P30UN120uP2kDrrAKSNJEYA94OFuLw072TWZM4SFfIqxLZUqWYa6A6mgDDK_kS3kdmVDafrqzLMfhnfxRYvQwyTbI46p_68OJAOgXnjewg6d_a8LeSzuiyjT9MeYMwN.pdf
-File3[$e]=$HOME/Downloads/APznzaZc_e9FKZ6_BV3d9UV8JTc40cW3tLmOIOoWV_KdJf1m72eKufh4CNVtgQT3J3TtsLR0edT_bJroBKAm_3mdgOD3vZalxYnLJzvlJK85SQe_Wj_-0i-Dc8mnlBr5iTjS8sOSf7vMec2OxLT9BRqAXZy6MhBHjZqoHwa_8RbDXwfzjvS1uvd4NuacCll_lDeXAY2fsm4zQfQ62BhjlmOgthe6f.pdf
-File4[$e]=$HOME/Downloads/SQL Notes by Apna College (1).pdf
-File5[$e]=$HOME/Downloads/Sorting algo (1).pdf
-File6[$e]=$HOME/Downloads/Application_Details.pdf
-File7[$e]=$HOME/Downloads/Antiragging.pdf
-File8[$e]=$HOME/Downloads/OS Unit 1.pdf
-File9[$e]=$HOME/MF/Study/OS/OS Unit 1.pdf
-Name1[$e]=index 4.md
-Name10[$e]=README.md
-Name2[$e]=APznzaa4tdVNfsmjydMpJ0NvVJ1Ju2PAHLxAcZBgZUK8nbgQlZik6gCprzENms22oG63gxo6wY9d0lVaJk3uh2YmIc5jd0P30UN120uP2kDrrAKSNJEYA94OFuLw072TWZM4SFfIqxLZUqWYa6A6mgDDK_kS3kdmVDafrqzLMfhnfxRYvQwyTbI46p_68OJAOgXnjewg6d_a8LeSzuiyjT9MeYMwN.pdf
-Name3[$e]=APznzaZc_e9FKZ6_BV3d9UV8JTc40cW3tLmOIOoWV_KdJf1m72eKufh4CNVtgQT3J3TtsLR0edT_bJroBKAm_3mdgOD3vZalxYnLJzvlJK85SQe_Wj_-0i-Dc8mnlBr5iTjS8sOSf7vMec2OxLT9BRqAXZy6MhBHjZqoHwa_8RbDXwfzjvS1uvd4NuacCll_lDeXAY2fsm4zQfQ62BhjlmOgthe6f.pdf
-Name4[$e]=SQL Notes by Apna College (1).pdf
-Name5[$e]=Sorting algo (1).pdf
-Name6[$e]=Application_Details.pdf
-Name7[$e]=Antiragging.pdf
-Name8[$e]=OS Unit 1.pdf
-Name9[$e]=OS Unit 1.pdf
+File1[$e]=$HOME/Documents/wezterm-config/backdrops/nord-space.png
+File10[$e]=$HOME/Downloads/Application_Details.pdf
+File2[$e]=$HOME/Documents/wezterm-config/backdrops/pastel-samurai.jpg
+File3[$e]=$HOME/Documents/wezterm-config/backdrops/totoro.jpeg
+File4[$e]=$HOME/Pictures/Wallpaper/cloudy-quasar.png
+File5[$e]=$HOME/Pictures/Wallpaper/final-showdown.jpg
+File6[$e]=$HOME/Pictures/Wallpaper/frieren.jpeg
+File7[$e]=$HOME/Pictures/Wallpaper/nord-space.png
+File8[$e]=$HOME/MF/Study/OOPS using JAVA -Unit 1 & 2 Full Revision (EduTech).pdf
+File9[$e]=$HOME/MF/Study/SE (assignment-4).pdf
+Name1[$e]=nord-space.png
+Name10[$e]=Application_Details.pdf
+Name2[$e]=pastel-samurai.jpg
+Name3[$e]=totoro.jpeg
+Name4[$e]=cloudy-quasar.png
+Name5[$e]=final-showdown.jpg
+Name6[$e]=frieren.jpeg
+Name7[$e]=nord-space.png
+Name8[$e]=OOPS using JAVA -Unit 1 & 2 Full Revision (EduTech).pdf
+Name9[$e]=SE (assignment-4).pdf
 
 [Toolbar annotationToolBar]
 IconSize=16

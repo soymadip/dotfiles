@@ -1,7 +1,11 @@
 Initialization
 KireiSakura
+OOP
 POSIX
+Polymorphism
 TODO
 UI
+dir
+initialize
 initializing
-checksum_v1 = 100e8b9aab6f97bf2f4e27cf9969297b
+checksum_v1 = 04ec99a2056e491f4b3e5d8a05a8226c

@@ -22,6 +22,7 @@
         "LogLongevity": "immortal",
         "LoggingLevel": "1",
         "LowBatteryLevel": 15,
+        "MaxTitleDuration": 0.0,
         "MinTitleDuration": 10,
         "NativeFileChooser": true,
         "NotifyOnEncodeDone": false,
@@ -56,7 +57,7 @@
         "show_queue_sidebar": true,
         "use_dvdnav": true,
         "version": "0.1",
-        "window_height": 1,
-        "window_width": 1
+        "window_height": 727,
+        "window_width": 945
     }
 }
