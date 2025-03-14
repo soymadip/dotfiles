@@ -19,96 +19,122 @@ no=' No'
 
 # Rofi CMD
 rofi_cmd() {
-	rofi -dmenu \
-		-p "$host" \
-		-mesg "Uptime: $uptime" \
-		-theme "${dir}"/${theme}.rasi
+  rofi -dmenu \
+    -p "$host" \
+    -mesg "Uptime: $uptime" \
+    -theme "${dir}/${theme}.rasi"
 }
 
 # Confirmation CMD
 confirm_cmd() {
-	rofi -theme-str 'window {location: center; anchor: center; fullscreen: false; width: 250px;}' \
-		-theme-str 'mainbox {children: [ "message", "listview" ];}' \
-		-theme-str 'listview {columns: 2; lines: 1;}' \
-		-theme-str 'element-text {horizontal-align: 0.5;}' \
-		-theme-str 'textbox {horizontal-align: 0.5;}' \
-		-dmenu \
-		-p 'Confirmation' \
-		-mesg 'Are you Sure?' \
-		-theme "${dir}"/${theme}.rasi
+  rofi -theme-str 'window {location: center; anchor: center; fullscreen: false; width: 250px;}' \
+    -theme-str 'mainbox {children: [ "message", "listview" ];}' \
+    -theme-str 'listview {columns: 2; lines: 1;}' \
+    -theme-str 'element-text {horizontal-align: 0.5;}' \
+    -theme-str 'textbox {horizontal-align: 0.5;}' \
+    -dmenu \
+    -p 'Confirmation' \
+    -mesg 'Are you sure?' \
+    -theme "${dir}/${theme}.rasi"
 }
 
 # Ask for confirmation
 confirm_exit() {
-	echo -e "$yes\n$no" | confirm_cmd
+  selection=$(echo -e "$yes\n$no" | confirm_cmd)
+
+  [[ -z "$selection" ]] && exit 0
+
+  echo "$selection"
 }
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$suspend\n$shutdown\n$lock\n$reboot\n$logout" | rofi_cmd
+  choice=$(echo -e "$suspend\n$shutdown\n$lock\n$reboot\n$logout" | rofi_cmd)
+
+  [[ -z "$choice" ]] && exit 0
+
+  echo "$choice"
 }
 
 # Execute Command
 run_cmd() {
-	selected="$(confirm_exit)"
-	if [[ "$selected" == "$yes" ]]; then
-		if [[ $1 == '--shutdown' ]]; then
-			systemctl poweroff
-		elif [[ $1 == '--reboot' ]]; then
-			systemctl reboot
-		elif [[ $1 == '--suspend' ]]; then
-			mpc -q pause
-			loginctl lock-session
-			systemctl suspend
-		elif [[ $1 == '--logout' ]]; then
-			if [[ "$DESKTOP_SESSION" == 'openbox' ]]; then
-				openbox --exit
-			elif [[ "$DESKTOP_SESSION" == 'bspwm' ]]; then
-				bspc quit
-			elif [[ "$DESKTOP_SESSION" == 'i3' ]]; then
-				i3-msg exit
-			elif [[ "$DESKTOP_SESSION" == 'plasma' ]]; then
-				qdbus org.kde.ksmserver /KSMServer logout 0 0 0
-			elif [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
-				hyprctl dispatch exit
-			fi
-		elif [[ $1 == '--lock' ]]; then
-			if [[ -x '/usr/bin/betterlockscreen' ]]; then
-				betterlockscreen -l
-			elif [[ -x '/usr/bin/i3lock' ]]; then
-				i3lock
-			else
-				loginctl lock-session
-			fi
-		elif [[ $1 == '--screen-off' ]]; then
-			if [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
-				sleep 1 && hyprctl dispatch dpms toggle
-			fi
-		fi
-	else
-		exit 0
-	fi
+  selected="$(confirm_exit)"
+
+  if [[ "$selected" == "$yes" ]]; then
+    case $1 in
+    '--shutdown')
+      systemctl poweroff
+      ;;
+    '--reboot')
+      systemctl reboot
+      ;;
+    '--suspend')
+      mpc -q pause
+      loginctl lock-session
+      systemctl suspend
+      ;;
+    '--logout')
+      case "$DESKTOP_SESSION" in
+      'openbox')
+        openbox --exit
+        ;;
+      'bspwm')
+        bspc quit
+        ;;
+      'i3')
+        i3-msg exit
+        ;;
+      'plasma')
+        qdbus org.kde.ksmserver /KSMServer logout 0 0 0
+        ;;
+      'hyprland')
+        hyprctl dispatch exit
+        ;;
+      esac
+      ;;
+    '--lock')
+      if [[ -x '/usr/bin/betterlockscreen' ]]; then
+        betterlockscreen -l
+      elif [[ -x '/usr/bin/i3lock' ]]; then
+        i3lock
+      else
+        loginctl lock-session
+      fi
+      ;;
+    '--screen-off')
+      if [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
+        sleep 1 && hyprctl dispatch dpms toggle
+      fi
+      ;;
+    esac
+  else
+    exit 1
+  fi
 }
 
 # Actions
-chosen="$(run_rofi)"
-case ${chosen} in
+chosen="$(run_rofi)" && [[ -z "$chosen" ]] && exit 1
+
+case $chosen in
 "$shutdown")
-	run_cmd --shutdown
-	;;
+  run_cmd --shutdown
+  ;;
 "$reboot")
-	run_cmd --reboot
-	;;
+  run_cmd --reboot
+  ;;
 "$lock")
-	run_cmd --lock
-	;;
+  run_cmd --lock
+  ;;
 "$suspend")
-	run_cmd --suspend
-	;;
+  run_cmd --suspend
+  ;;
 "$logout")
-	run_cmd --logout
-	;;
+  run_cmd --logout
+  ;;
 "$scrnof")
-	run_cmd --screen-off
-	;;
+  run_cmd --screen-off
+  ;;
+*)
+  exit 1
+  ;;
 esac
