@@ -1,6 +1,6 @@
 main.advanced_view true
 main.audio_codec opus
-main.audio_input device:Monitor of GA107 High Definition Audio Controller Digital Stereo (HDMI)
+main.audio_input device:Default output
 main.av1_amd_bug_warning_shown false
 main.change_video_resolution false
 main.codec hevc_10bit
@@ -20,8 +20,8 @@ main.record_area_width 1920
 main.record_cursor true
 main.restore_portal_session true
 main.show_recording_saved_notifications true
-main.show_recording_started_notifications false
-main.show_recording_stopped_notifications false
+main.show_recording_started_notifications true
+main.show_recording_stopped_notifications true
 main.software_encoding_warning_shown true
 main.steam_deck_warning_shown false
 main.use_new_ui false

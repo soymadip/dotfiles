@@ -26,7 +26,8 @@
     "html": "xdg-open $fullFileName",
     "java": "code-run 'javac $fileName && java $fileNameWithoutExt && rm $fileNameWithoutExt.class'",
     "c": "code-run 'gcc $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled'",
-    "cpp": "code-run 'g++ $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled'"
+    "cpp": "code-run 'g++ $fileName -o $fileNameWithoutExt_compiled && { ./$fileNameWithoutExt_compiled; }; rm $fileNameWithoutExt_compiled'",
+    "js": "code-run 'npm run start'",
   },
   "code-runner.preserveFocus": false,
   "git.confirmSync": false,
@@ -53,7 +54,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.cursorSmoothCaretAnimation": "on",
-  "indentRainbow.indicatorStyle": "light",
   "indentRainbow.colors": [
     "rgba(255,255,64,0.2)",
     "rgba(127,255,127,0.2)",
@@ -71,8 +71,9 @@
   "editor.scrollbar.horizontalScrollbarSize": 6,
   "editor.overviewRulerBorder": false,
 
-  "breadcrumbs.enabled": false,
-  "files.insertFinalNewline": true,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.icons": false,
+  "breadcrumbs.showFunctions": false,
 
   "extensions.ignoreRecommendations": true,
   "window.titleBarStyle": "native",
@@ -82,7 +83,6 @@
   },
   "yaml.trace.server": "messages",
   "editor.snippetSuggestions": "top",
-  "git.postCommitCommand": "sync",
 
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -94,7 +94,24 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.fontSize": 14,
-  "window.customTitleBarVisibility": "never",
   "workbench.colorTheme": "Catppuccin Macchiato",
-  "window.menuBarVisibility": "toggle",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  "indentRainbow.errorColor": "",
+
+    "search.useIgnoreFiles": false,
+    "indentRainbow.tabmixColor": "",
+    "fiveServer.injectBody": true,
+    "workbench.editor.pinnedTabSizing": "shrink",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.menuBarVisibility": "toggle",
+    "[mdx]": {
+      "editor.defaultFormatter": "unifiedjs.vscode-mdx"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
 }

@@ -32,7 +32,8 @@ export FZF_DEFAULT_COMMAND='fd --hidden --no-ignore --exclude .git'
 export AUTO_NOTIFY_EXPIRE_TIME=5000
 export AUTO_NOTIFY_IGNORE=("docker" "top" "htop" "btm" "nvim" "vim" "nano" "man" "less" "more" "tig" "watch" "git commit" "ssh" "lazygit" "cat" "bat" "batman" "lf" "yazi")
 
-
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
 
 #_______________________Shell Integrations_____________________________
 
@@ -40,7 +41,6 @@ import-mod --all
 
 eval_fzf
 eval "$(zoxide init zsh --cmd cdz)"
-
 
 #_____________________________Plugins____________________________________
 # zinit light zsh-users/zsh-syntax-highlighting
@@ -65,7 +65,7 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:*:*' fzf-preview 'lsd --almost-all --group-directories-first --color=always $realpath'
-
+eval "$(register-python-argcomplete pipx)"
 
 #_____________________________key-bindings_________________________________
 export KEYTIMEOUT=1
@@ -111,8 +111,9 @@ alias fzf='fzf --preview "bat --color=always --style=numbers --line-range=:500 {
 alias lnr='ln_relative'
 alias papirus-folders='pprus_ch_fldr_clr'
 alias reboot='echo " reebooting......" && sleep 5 && reboot'
-alias csmp='sudo rm -rf /opt/lampp/htdocs/csmp && sudo cp ~/Documents/git/CSMP/  /opt/lampp/htdocs/csmp '
+alias sdmp='sudo rm -rf /opt/lampp/htdocs/sdmp && sudo cp ~/Documents/git/SDMP/  /opt/lampp/htdocs/sdmp '
 alias xampp='sudo /opt/lampp/lampp '
+alias docker-compose='podman-compose'
 
 # git
 alias ghc="github_clone"
@@ -130,3 +131,4 @@ alias gpr="gh pr create"
 alias gr="git rebase -i"
 alias gs="git status -sb"
 alias gt="git tag"
+

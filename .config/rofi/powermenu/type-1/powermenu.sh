@@ -12,6 +12,7 @@ host=$(hostname)
 shutdown=' ⏼  Shutdown'
 reboot='   Reboot'
 lock='   Lock'
+screen_off=' 󰖦  Screen Off'
 suspend=' ⏾  Suspend'
 logout=' 󰗽  Logout'
 yes=' Yes'
@@ -49,7 +50,7 @@ confirm_exit() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-  choice=$(echo -e "$suspend\n$shutdown\n$lock\n$reboot\n$logout" | rofi_cmd)
+  choice=$(echo -e "$suspend\n$shutdown\n$lock\n$screen_off\n$reboot\n$logout" | rofi_cmd)
 
   [[ -z "$choice" ]] && exit 0
 
@@ -72,6 +73,17 @@ run_cmd() {
       mpc -q pause
       loginctl lock-session
       systemctl suspend
+      ;;
+    '--screen-off')
+      case "$DESKTOP_SESSION" in
+      'hyprland')
+        sleep 0.5 && hyprctl dispatch dpms toogle
+        ;;
+      *)
+        hypr-notify -l normal "Screen off is not available in $DESKTOP_SESSION"
+        exit 1
+        ;;
+      esac
       ;;
     '--logout')
       case "$DESKTOP_SESSION" in
@@ -101,11 +113,6 @@ run_cmd() {
         loginctl lock-session
       fi
       ;;
-    '--screen-off')
-      if [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
-        sleep 1 && hyprctl dispatch dpms toggle
-      fi
-      ;;
     esac
   else
     exit 1
@@ -131,7 +138,7 @@ case $chosen in
 "$logout")
   run_cmd --logout
   ;;
-"$scrnof")
+"$screen_off")
   run_cmd --screen-off
   ;;
 *)

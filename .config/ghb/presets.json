@@ -8948,6 +8948,7 @@
                 }
             ],
             "Folder": true,
+            "FolderOpen": false,
             "PresetName": "Matroska",
             "Type": 0
         },
@@ -9154,7 +9155,7 @@
                     "PictureUseMaximumSize": true,
                     "PictureWidth": 3840,
                     "PresetDescription": "Nvidia NVENC hardware accelerated H.265 video (up to 2160p) and AAC stereo audio, in an MP4 container.",
-                    "PresetDisabled": false,
+                    "PresetDisabled": true,
                     "PresetName": "H.265 NVENC 2160p 4K",
                     "SubtitleAddCC": false,
                     "SubtitleAddForeignAudioSearch": false,
@@ -9271,7 +9272,7 @@
                     "PictureUseMaximumSize": true,
                     "PictureWidth": 1920,
                     "PresetDescription": "Nvidia NVENC hardware accelerated H.265 video (up to 1080p) and AAC stereo audio, in an MP4 container.",
-                    "PresetDisabled": false,
+                    "PresetDisabled": true,
                     "PresetName": "H.265 NVENC 1080p",
                     "SubtitleAddCC": false,
                     "SubtitleAddForeignAudioSearch": false,
