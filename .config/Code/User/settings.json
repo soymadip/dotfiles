@@ -114,4 +114,5 @@
     "[json]": {
       "editor.defaultFormatter": "vscode.json-language-features"
     },
+  "fiveServer.php.executable": "/usr/bin/php",
 }

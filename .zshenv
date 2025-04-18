@@ -8,4 +8,4 @@ export PATH="$HOME/.config/hypr/bin:$HOME/.local/bin:$PATH"
 export ELECTRON_DISABLE_GPU=true
 
 #__ Added by KireiSakura-Kit____
-export PATH="/home/soymadip/.local/share/KireiSakura-Kit/bin:$PATH"
+export PATH="/home/soymadip/.config/composer/vendor/bin:/home/soymadip/.local/share/KireiSakura-Kit/bin:$PATH"
