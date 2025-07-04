@@ -92,7 +92,8 @@ core_pckgs=(
   "archlinux-xdg-menu"
   "brightnessctl"
   "bun-bin"
-  "go"
+  "fzf"
+  "imagemagick"
 
 )
 
