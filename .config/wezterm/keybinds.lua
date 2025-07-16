@@ -94,5 +94,5 @@ return {
 			mods = "CTRL|SHIFT",
 			key = "n",
 		}, ]]
-	}
+	},
 }

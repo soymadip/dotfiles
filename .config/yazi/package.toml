@@ -1,27 +1,27 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "7afba3a"
-hash = "3a73613fc702a5f8369791b3401f52f1"
+rev = "cbc4450"
+hash = "3996fc74044bc44144b323686f887e1"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-enter"
-rev = "7afba3a"
-hash = "c1a2739e9ef2d837030ccb4267be3ed1"
+rev = "cbc4450"
+hash = "56fdabc96fc1f4d53c96eb884b02a5be"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:chmod"
-rev = "7afba3a"
-hash = "36c82bb433078e8e752351d961cac777"
+rev = "cbc4450"
+hash = "1adc12c2b2b025411ab61eb8f0879574"
 
 [[plugin.deps]]
 use = "imsi32/yatline"
-rev = "1b4a9a1"
-hash = "fab669582f30943c59e06fe8b3bea1d2"
+rev = "88bd1c5"
+hash = "981acbe9b758b1af3a8154c932bb936d"
 
 [[plugin.deps]]
 use = "sharklasers996/eza-preview"
 rev = "7ca4c25"
-hash = "d1efd1931dd738af0d6e4f41dd491313"
+hash = "b25c2acb08d9ca5ff5cf71ea764fed8d"
 
 [[plugin.deps]]
 use = "grappas/wl-clipboard"

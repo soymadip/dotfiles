@@ -281,3 +281,7 @@ nohup.*
 
 # ------ state -----
 /.local/state
+
+# ------- Misc -----
+.config/copyq/copyq_no_session.ini
+.config/nvim/.neoconf.json

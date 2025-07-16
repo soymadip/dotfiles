@@ -31,7 +31,7 @@ local conf = {
 	window_background_opacity = 0.92,
 
 	---------------- font settings ---------------
-	font = wezterm.font("JetBrainsMono Nerd Font"),
+	font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Regular", stretch = "Normal", style = "Normal" }),
 	font_size = 11.1,
 
 	-------------  Tab bar --------------------

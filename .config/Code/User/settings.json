@@ -115,4 +115,5 @@
       "editor.defaultFormatter": "vscode.json-language-features"
     },
   "fiveServer.php.executable": "/usr/bin/php",
+  "diffEditor.maxComputationTime": 0,
 }

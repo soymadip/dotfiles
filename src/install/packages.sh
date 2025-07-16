@@ -7,7 +7,7 @@ rice_pckgs=(
 
   "papirus-icon-theme"
   "papirus-folders-catppuccin-git"
-  "catppuccin-cursors-frappe"
+  "catppuccin-cursors-mocha"
   "archlinux-tweak-tool-git"
   "colloid-catppuccin-gtk-theme-git"
   "catppuccin-gtk-theme-macchiato"
@@ -99,7 +99,8 @@ core_pckgs=(
 
 cli_pckgs=(
 
-  "kitty"
+  # "kitty"
+  "wezterm-git"
 
   "neovim"
   "luarocks"
@@ -181,6 +182,7 @@ user_pckgs=(
 
   "thunar"
   "thunar-archive-plugin"
+  "thunar-vcs-plugin"
   "thunar-volman"
   "gvfs-mtp"
   "tumbler"

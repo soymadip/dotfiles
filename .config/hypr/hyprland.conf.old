@@ -1,0 +1,73 @@
+# _                      _                 _
+#| |__  _   _ _ __  _ __| | __ _ _ __   __| |
+#| '_ \| | | | '_ \| '__| |/ _` | '_ \ / _` |
+#| | | | |_| | |_) | |  | | (_| | | | | (_| |
+#|_| |_|\__, | .__/|_|  |_|\__,_|_| |_|\__,_|
+#       |___/|_|
+
+
+#///////////////// MONITORS \\\\\\\\\\\\\\\\\\
+
+source = ~/.config/hypr/conf/monitor.conf
+
+
+
+#//////////////// MY PROGRAMS \\\\\\\\\\\\\\\\\
+
+source = ~/.config/hypr/conf/default-programs.conf
+
+
+
+#///////////////// AUTOSTART \\\\\\\\\\\\\\\\\\
+
+source = ~/.config/hypr/conf/autostart.conf
+
+
+
+#///////////////// THEME \\\\\\\\\\\\\\\\\\
+
+source = ~/.config/hypr/conf/theme.conf
+
+
+
+#///////////////// CURSOR \\\\\\\\\\\\\\\\\\
+
+source = ~/.config/hypr/conf/cursor.conf
+
+
+
+#//////////// ENVIRONMENT VARIABLES \\\\\\\\\\\\\
+
+source = ~/.config/hypr/conf/env-vars.conf
+
+
+
+#/////////////// LOOK AND FEEL \\\\\\\\\\\\\\\
+
+source = ~/.config/hypr/conf/apperance.conf
+
+
+
+#//////////////// INPUT \\\\\\\\\\\\\\\\\\ 
+
+source = ~/.config/hypr/conf/input.conf
+
+
+
+#/////////////// KEYBINDINGS \\\\\\\\\\\\\\
+
+source = ~/.config/hypr/conf/keybinds.conf
+
+
+
+#////////////////// WINDOWS AND WORKSPACES \\\\\\\\\\\\\\\\\\\\\\\
+
+source = ~/.config/hypr/conf/windowrules.conf
+
+
+
+#////////////////// WINDOWS AND WORKSPACES \\\\\\\\\\\\\\\\\\\\\\\
+
+source = ~/.config/hypr/conf/xwayland.conf
+
+

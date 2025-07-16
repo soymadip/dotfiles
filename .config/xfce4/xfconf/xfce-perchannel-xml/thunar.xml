@@ -12,7 +12,7 @@
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="misc-directory-specific-settings" type="bool" value="true"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_100_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,124,124,117,84,237,73,111,1115,50,109,58,50,61"/>
+  <property name="last-details-view-column-widths" type="string" value="50,124,129,121,86,208,73,111,894,50,109,72,50,327"/>
   <property name="misc-thumbnail-draw-frames" type="bool" value="false"/>
   <property name="misc-text-beside-icons" type="bool" value="false"/>
   <property name="misc-change-window-icon" type="bool" value="true"/>
@@ -44,4 +44,5 @@
   <property name="misc-transfer-verify-file" type="string" value="THUNAR_VERIFY_FILE_MODE_NEVER"/>
   <property name="last-toolbar-items" type="string" value="menu:0,undo:0,redo:0,back:1,reload:0,forward:1,open-parent:1,open-home:1,zoom-in:0,zoom-out:0,zoom-reset:0,location-bar:1,search:1,toggle-split-view:1,view-as-icons:1,view-as-detailed-list:1,view-as-compact-list:1,uca-action-1731708888341503-1:0,uca-action-1731738787955966-1:0,uca-action-1733384015427888-1:0,uca-action-1733384670386667-2:0,new-tab:0,new-window:0,view-switcher:0"/>
   <property name="misc-confirm-close-multiple-tabs" type="bool" value="false"/>
+  <property name="misc-expandable-folders" type="bool" value="true"/>
 </channel>
